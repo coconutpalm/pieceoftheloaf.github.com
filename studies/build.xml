@@ -1,0 +1,9 @@
+<project name="dbf-docbook" default="all" basedir=".">
+	<property file="project.properties" />
+	<target name="all" description="Build documentation">
+		<ant antfile="${dbf.basedir}/build-docbook.xml" target="all">
+			<property name="docbook.dir" value="piece.of.the.loaf" />
+			<property name="docbook.file" value="PieceOfTheLoaf" />
+		</ant>
+	</target>
+</project>

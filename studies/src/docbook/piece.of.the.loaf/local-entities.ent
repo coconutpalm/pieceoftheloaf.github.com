@@ -1,0 +1,63 @@
+<!-- Define any local entities in this file -->
+
+<!-- This document -->
+<!ENTITY  booktitle           "<citetitle pubwork='book'>A Piece of the Loaf</citetitle>">
+<!ENTITY  booksubtitle        "<citetitle pubwork='book'>A Biblical Model of the Assembly</citetitle>">
+<!ENTITY  productname         "The Assembly">
+
+<!-- Eclipse-related stuff -->
+<!ENTITY  rcp                 "<ulink url='http://wiki.eclipse.org/index.php/Rich_Client_Platform'><acronym>RCP</acronym></ulink>">
+<!ENTITY  rcplatform          "<ulink url='http://wiki.eclipse.org/index.php/Rich_Client_Platform'>Eclipse Rich Client Platform</ulink>" >
+<!ENTITY  swt                 "<ulink url='http://www.eclipse.org/swt/'><acronym>SWT</acronym></ulink>">
+<!ENTITY  eclipse             "<ulink url='http://www.eclipse.org'>Eclipse</ulink>" >
+<!ENTITY  eclipseorg          "<ulink url='http://www.eclipse.org'>Eclipse.org</ulink>">
+<!ENTITY  eclipsearticles     "<ulink url='http://www.eclipse.org/articles/'>Eclipse.org</ulink>">
+<!ENTITY  javabeans           "<ulink url='http://java.sun.com/products/javabeans/'>JavaBeans</ulink>">
+<!ENTITY  eclipseprogargs     "<ulink url='http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/misc/runtime-options.html'>Runtime options</ulink>">
+
+<!-- General Java and XML -->
+<!ENTITY  apple               "<ulink url='http://www.apple.com'>Apple</ulink>">
+<!ENTITY  applemac            "<ulink url='http://www.apple.com/mac'>Apple Mac</ulink>">
+<!ENTITY  mac                 "<ulink url='http://www.apple.com/mac'>Mac</ulink>">
+<!ENTITY  osx                 "<ulink url='http://www.apple.com/macosx/'>Mac OS X</ulink>">
+<!ENTITY  api                 "<acronym>API</acronym>">
+<!ENTITY  xslt                "<acronym>XSLT</acronym>" >
+<!ENTITY  xsltproc            "<ulink url='http://xmlsoft.org/XSLT/xsltproc2.html'>XsltProc</ulink>" >  
+<!ENTITY  ant                 "<ulink url='http://ant.apache.org/'>ANT</ulink>" >
+<!ENTITY  docbook             "<ulink url='http://www.docbook.org/'>DocBook</ulink>" >
+<!ENTITY  sgml                "<acronym>SGML</acronym>">
+<!ENTITY  xml                 "<acronym>XML</acronym>">
+<!ENTITY  xmlschema           "<acronym>XML Schema</acronym>">
+<!ENTITY  cvs                 "<acronym>CVS</acronym>">
+<!ENTITY  url                 "<acronym>URL</acronym>">
+<!ENTITY  http                "<acronym>HTTP</acronym>">
+<!ENTITY  post                "<acronym>POST</acronym>">
+<!ENTITY  get                 "<acronym>GET</acronym>">
+<!ENTITY  utf8                "<acronym>UTF-8</acronym>">
+<!ENTITY  mime                "<acronym>MIME</acronym>">
+<!ENTITY  saxon               "<ulink url='http://saxon.sourceforge.net/'>Saxon</ulink>">
+<!ENTITY  beanshell           "<ulink url='http://www.beanshell.org'>BeanShell</ulink>">
+<!ENTITY  javascript          "<acronym>JavaScript</acronym>">
+<!ENTITY  log4j               "<ulink url='http://jakarta.apache.org/log4j'>Log4j</ulink>">
+<!ENTITY  apache              "<ulink url='http://jakarta.apache.org'>Apache</ulink>">
+<!ENTITY  tomcat              "<ulink url='http://jakarta.apache.org/tomcat/'>Tomcat</ulink>">
+<!ENTITY  resin               "<ulink url='http://www.caucho.com/'>Resin</ulink>">
+<!ENTITY  jboss               "<ulink url='http://www.jboss.org'>JBoss</ulink>">
+<!ENTITY  java                "<ulink url='http://java.sun.com/'>Java</ulink>">
+<!ENTITY  devmanual           "<ulink url='http://www.cs.put.poznan.pl/dweiss/carrot/index.php/developers/index.xml'><citetitle pubwork='book'>Developers Manual</citetitle></ulink>">
+<!ENTITY  jedit               "<ulink url='http://www.jedit.org'>JEdit</ulink>">
+<!ENTITY  hibernate           "<ulink url='http://www.hibernate.org'>Hibernate</ulink>">
+<!ENTITY  ibatis              "<ulink url='http://ibatis.apache.org'>iBatis</ulink>">
+<!ENTITY  jaas				  "<ulink url='http://java.sun.com/javase/6/docs/technotes/guides/security/'>JAAS</ulink>">
+
+<!ENTITY  fop                 "<ulink url='http://xml.apache.org/fop/'>Apache FOP</ulink>">
+<!ENTITY  miktex              "<ulink url='http://www.miktex.org'>MiKTeX</ulink>">
+
+<!ENTITY  xslfo               "<ulink url='http://www.w3.org/Style/XSL/'>XSL:FO</ulink>">
+<!ENTITY  java16			  "<ulink url='http://java.sun.com/javase/downloads/widget/jdk6.jsp'>Java 1.6</ulink>">
+
+<!-- OneBench Stuff -->
+<!ENTITY  subclipse            "<ulink url='http://subclipse.tigris.org/update_1.4.x'>http://subclipse.tigris.org/update_1.4.x</ulink>">
+<!ENTITY  pluginbuilder        "<ulink url='http://self-3-4.pluginbuilder.org/nightly/updateSite/'>http://self-3-4.pluginbuilder.org/nightly/updateSite/</ulink>">
+<!ENTITY  code				   "<ulink url='http://subversion.ny.jpmorgan.com/svn/repos/OneBench/trunk/code'>http://subversion.ny.jpmorgan.com/svn/repos/OneBench/trunk/code</ulink>">
+

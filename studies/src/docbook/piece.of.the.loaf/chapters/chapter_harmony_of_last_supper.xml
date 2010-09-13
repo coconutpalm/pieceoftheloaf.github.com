@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" 
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+	<!ENTITY % local SYSTEM "../local-entities.ent">
+	%local; 
+]>
+
+<chapter id="chapter_harmony_of_last_supper">
+	<title><quote>Proclaim the Lord's death until he comes</quote></title>
+	
+	<epigraph>
+		<attribution><emphasis>From 1 Corinthians 11:23-26</emphasis></attribution>
+		
+		<para><emphasis>“Do this in remembrance of me.”  .... For every time you eat 
+		this bread and drink the cup, you proclaim the Lord’s death until he comes.</emphasis></para>
+	</epigraph>
+	
+	<para><quote>Do this in remembrance of me.</quote></para>
+	
+	<para>What did Jesus want us to do in remembrance of him?  In order to really understand this,
+	we must first look at exactly what Jesus and the disciples did that last supper.  Then we need
+	to ask, <quote>What did the early disciples undersand Jesus to mean?</quote></para>
+	
+	<para>The following	outline describes what happened, and was produced simply by harmonizing 
+	what all of the Gospels and 1 Corinthians say about the Last Supper.  After briefly observing
+	what happened, according to all the gospel writers and Paul, we will ask, <quote>What did they
+	understand Jesus to mean when he asked us to do this in remembrance of him?</quote> and 
+	<quote>What are the implications of this for us?</quote></para>
+	
+	<sect1 id="section_harmony_of_last_supper">
+		<title>A harmony of the Last Supper</title>
+		
+		<para>
+			<xi:include href="outline_supper_harmony.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+		</para>
+	</sect1>
+</chapter>

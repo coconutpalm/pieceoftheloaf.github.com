@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+"http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+	<!ENTITY % isopub SYSTEM "iso-pub.ent"> 
+	%isopub;
+	<!ENTITY % local SYSTEM "local-entities.ent">
+	%local; 
+]>
+
+<book lang="en">
+  	<title>&booktitle;</title>
+  	<subtitle>&booksubtitle;</subtitle>
+
+	<bookinfo>
+		<title>&booktitle;</title>
+		<subtitle>&booksubtitle;</subtitle>
+		
+		<productname>&productname;</productname>
+<!-- 
+		<copyright>
+			<year>2010</year>
+			<holder>David Orme</holder>
+		</copyright>
+ -->
+		
+		<legalnotice>
+			<para>
+				<ulink url="http://dvorme.github.com/pieceoftheloaf">&booktitle;</ulink> is licensed under a 
+				<ulink url="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+					Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</ulink>.
+			</para>
+			<para>
+				<mediaobject>
+					<imageobject role="html">
+				        <imagedata fileref="images/somerights20.png"/>
+					</imageobject>
+					<imageobject role="fo">
+				        <imagedata fileref="images/somerights20-pdf.png"/>
+					</imageobject>
+				</mediaobject>
+			</para>
+		</legalnotice>
+		
+	    <mediaobject>
+	      <imageobject role="html">
+	        <imagedata fileref="images/logo.png"/>
+	      </imageobject>
+ 	      <imageobject role="fo">
+			<imagedata fileref="images/logo-pdf.png"/>	      
+	      </imageobject>
+	    </mediaobject>
+	</bookinfo>
+
+	<toc/>
+
+	<!-- <xi:include href="chapters/preface.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />-->
+
+ 	<part label="I" id="part-come_together">
+		<title>When you come together</title>
+		<partintro>
+			<para>The Last Supper.  The very mentioning of this term puts images in our hearts
+			and minds that may or may not match what actually happened in Scripture.  So, what exactly
+			happened?  Let's dive into Scripture and ask that question.  What we find might surprise,
+			amaze, or even offend.  But in order to be faithful to God's revelation in his Word,
+			we really must ask, must we not?
+			
+			<itemizedlist>
+				<listitem>
+					<para><xref linkend="chapter_harmony_of_last_supper" /> &mdash; simply reconstructs
+					in outline form exactly what happened that first night Jesus met with his 
+					disciples, and asks a crucial question: <quote>If Jesus invited us to do this
+					in remembrance of him and Paul adds that by doing this we proclaim our Lord's
+					death until he comes, is there any good reason not to do just that?</quote>.</para>
+					
+					<para><!-- <xref linkend="chapter_motivations" /> -->&mdash; explains...</para>
+				</listitem>
+			</itemizedlist>
+			</para>
+		</partintro>
+		<xi:include href="chapters/chapter_harmony_of_last_supper.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	</part>
+<!-- 
+ 	<part label="II" id="part-the_body">
+		<title>The Measure of Christ's Stature</title>
+		
+		<partintro>
+			<para>In <xref linkend="preface"/>, we motivated this series by noticing how the practice of
+			assembling together in the early church was done according to a pattern that Jesus initiated
+			and that Paul further detailed.  But before we can understand why our Lord would have instituted
+			this pattern, we first need to understand, <quote>What is the Body of Christ?</quote>
+			
+			<itemizedlist>
+				<listitem>
+					<para><xref linkend="chapter_discerning_the_body" /> &mdash; describes the importance
+					of discerning the Lord's Body when we come together.</para>
+				</listitem>
+				<listitem>
+					<para><xref linkend="chapter_motivations" /> &mdash; explains motivations</para>
+				</listitem>
+			</itemizedlist>
+			</para>
+		</partintro>
+		<xi:include href="chapters/chapter_discerning_the_body.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	</part>
+ -->
+</book>
