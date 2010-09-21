@@ -99,6 +99,7 @@
 				<arg value="@{output}" />
 				<arg value="@{input}" />
 				<arg value="@{style}" />
+				<arg value="use.extensions=1" />
 			</java>
 		</sequential>
 	</macrodef>

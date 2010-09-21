@@ -111,8 +111,8 @@
 		<table>
 		  <title>The Love Feast in 1 Corinthians</title>
 		  <tgroup cols="2">
-		    <colspec colname="Corinthians"/>
-		    <colspec colname="The Last Supper"/>
+		    <colspec colname="Corinthians" colwidth="1*"/>
+		    <colspec colname="The Last Supper" colwidth="1*"/>
 		    <thead>
 		      <row>
 				<entry>1 Corinthians</entry>
