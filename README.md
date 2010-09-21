@@ -1,5 +1,5 @@
 A Piece of the Loaf
-==================
+===================
 
 Resources supporting assemblies of Christians according to the
 Biblical pattern.
