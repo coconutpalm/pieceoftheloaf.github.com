@@ -100,6 +100,7 @@
 				<arg value="@{input}" />
 				<arg value="@{style}" />
 				<arg value="use.extensions=1" />
+				<arg value="graphicsize.extension=0" />
 			</java>
 		</sequential>
 	</macrodef>
