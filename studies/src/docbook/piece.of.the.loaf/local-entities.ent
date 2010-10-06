@@ -3,7 +3,8 @@
 <!-- This document -->
 <!ENTITY  booktitle           "<citetitle pubwork='book'>A Piece of the Loaf</citetitle>">
 <!ENTITY  booksubtitle        "<citetitle pubwork='book'>A Biblical Model of the Assembly</citetitle>">
-<!ENTITY  productname         "The Assembly">
+<!ENTITY  productname         "Families of Faith">
+<!ENTITY  net                 "(NT)">
 
 <!-- Eclipse-related stuff -->
 <!ENTITY  rcp                 "<ulink url='http://wiki.eclipse.org/index.php/Rich_Client_Platform'><acronym>RCP</acronym></ulink>">
