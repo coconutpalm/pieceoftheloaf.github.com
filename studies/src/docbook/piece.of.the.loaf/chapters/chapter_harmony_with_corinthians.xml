@@ -9,12 +9,14 @@
 <chapter id="chapter_harmony_with_corinthians">
 	<title><quote>Proclaim the Lord’s death until he comes</quote></title>
 	
-	<epigraph>
-		<attribution><emphasis>From 1 Corinthians 11:23-26 &net;</emphasis></attribution>
-		
-		<para><emphasis>“Do this in remembrance of me.”  .... For every time you eat 
-		this bread and drink the cup, you proclaim the Lord’s death until he comes.</emphasis></para>
-	</epigraph>
+	<blockquote>
+		<epigraph>
+			<attribution><emphasis>From 1 Corinthians 11:23-26 &net;</emphasis></attribution>
+			
+			<para><emphasis>“Do this in remembrance of me.”  .... For every time you eat 
+			this bread and drink the cup, you proclaim the Lord’s death until he comes.</emphasis></para>
+		</epigraph>
+	</blockquote>
 	
 	<para>In this chapter, we will continue asking "What does Jesus want us to do in remembrance
 	of him?"  In <xref linkend="chapter_harmony_of_last_supper"/>, Matthew gave us a hint about 
@@ -278,7 +280,5 @@
 		<para>These two things were the essential ingredients for Jesus.  And they were the essential
 		ingredients for Paul.  For Jesus, having these things was <emphasis>both necessary and also 
 		sufficient.</emphasis>  The same was true for Paul.</para>
-		
-		<para>Is it true for us?</para>
 	</sect1>
 </chapter>
