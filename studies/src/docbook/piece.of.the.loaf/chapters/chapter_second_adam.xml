@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" 
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+	<!ENTITY % local SYSTEM "../local-entities.ent">
+	%local; 
+]>
+
+<chapter id="chapter-id-for-hyperlinks">
+	<title>Chapter Title</title>
+	
+	<epigraph>
+		<attribution><emphasis></emphasis></attribution>
+		<para><emphasis></emphasis></para>
+	</epigraph>
+	
+	<para>Say something about what this chapter will say.</para>
+	
+	<sect1 id="section-id-for-hyperlinks">
+		<title>Section title</title>
+		
+		<para>bla bla bla.</para>
+	</sect1>
+</chapter>

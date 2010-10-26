@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" 
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+[
+	<!ENTITY % local SYSTEM "../local-entities.ent">
+	%local; 
+]>
+
+<chapter id="chapter-id-for-hyperlinks">
+	<title>What is Church?</title>
+	
+	<epigraph>
+		<attribution><emphasis></emphasis></attribution>
+		<para><emphasis></emphasis></para>
+	</epigraph>
+	
+	<important>
+		<title>Important</title>
+		
+		<para>This study is a work in progress!</para>
+	</important>
+	
+	<para>What is church?</para>
+	
+	<para>The New Testament has multiple words describing what we think of as "church",
+	and in order to properly discern the meaning, we need to carefully and properly
+	divide the Word of Truth.</para>
+	
+	<para>You don't need to know Greek to read this study (I don't), but a passing
+	familiarity with study tools that help lay-people understand the original Greek 
+	would be helpful.  Fortunately, excellent tools are available online, and all
+	of this work will be cross-referenced with the actual searches I have used </para>
+
+
+Ekklesia usage: http://net.bible.org/verse.php?book=Eph&chapter=1&verse=23
+
+Notes:
+
+Either used for assemblies of a city or smaller (consistent with Greek usage)
+Or used in a spiritual sense to refer to all believers of all time (Ephesians 1,5 and Hebrews 12)
+
+"Body of Christ" always has a spiritual meaning?
+
+Then there's Matthew 18:17ff...
+
+
+King James Edicts:
+
+1. The Ordinary Bible read in the Church, commonly called the Bishop's Bible, to be followed, and as little altered as the Truth of the original will permit.
+
+2. The Names of the Prophets, and the Holy Writers, with the other Names of the Text, to be retained, as nigh as may be, accordingly as they were vulgarly used.
+
+***3. The old Ecclesiastical Words to be kept, viz the Word Church not to be translated Congregation &c.
+
+4. When a Word hath divers Significations, that to be kept which hath been most commonly used by the most of the Ancient Fathers, being agreeable to the Propriety of the Place, and the Analogy of the Faith.
+
+5. The Division of the Chapters to be altered, either not at all, or as little as may be, if Necessity so require.
+
+6. No Marginal Notes at all to be affixed, but only for the Explanation of the Hebrew or Greek Words, which cannot, without some circumlocution, so briefly and fitly be express'd in the Text.
+
+7. Such Quotations of Places to be marginally set down as shall serve for the fit Reference of one Scripture to another.
+
+8. Every particular Man of each Company, to take the same Chapter, or Chapters, and having translated or amended them severally by himself, where he thinketh good, all to meet together, confer what they have done, and agree for their Parts what shall stand.
+
+9. As any one Company hath dispatched any one Book in this Manner they shall send it to the rest, to be consider'd of seriously and judiciously, for His Majesty is very careful in this Point.
+
+10 If any Company, upon the Review of the Book so sent, doubt or differ upon any Place, to send them Word thereof; note the Place, and withal send the Reasons, to which if they consent not, the Difference to be compounded at the General Meeting, which is to be of the chief Persons of each Company, at the end of the Work.
+
+11. When any Place of special Obscurity is doubted of, Letters to be directed, by Autority, to send to any Learned Man in the Land, for his Judgement of such a Place.
+
+12. Letters to be sent from every Bishop to the rest of his Clergy, admonishing them of this Translation in hand; and to move and charge as many as being skilful in the Tongues; and having taken Pains in that kind, to send his particular Observations to the Company, either at Westminster, Cambridge or Oxford.
+
+13 The Directors in each Company, to be the Deans of Westminster and Chester for that Place; and the King's Professors in the Hebrew or Greek in either University.
+
+14.. These translations to be used when they agree better with the Text than the Bishops Bible. Tindoll's. Matthews. Coverdale's. Whitchurch's. Geneva.
+
+15. Besides the said Directors before mentioned, three or four of the most Ancient and Grave Divines, in either of the Universities, not employed in Translating, to be assigned by the Vice-Chancellor, upon Conference with the rest of the Heads, to be Overseers of the Translations as well Hebrew as Greek, for the better Observation of the 4th Rule above specified.
+
+	
+	<sect1 id="section-id-for-hyperlinks">
+		<title>Section title</title>
+		
+		<para>bla bla bla.</para>
+	</sect1>
+</chapter>
