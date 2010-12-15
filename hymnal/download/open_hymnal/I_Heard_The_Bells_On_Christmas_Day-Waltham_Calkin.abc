@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.730000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Lk 2:13-14, Is 41:13		"
+%
+
+X: 1
+T: I Heard The Bells On Christmas Day
+C: Words: Henry Wadsworth Longfellow, 1864. 
+C: Music: 'Waltham (Calkin)' John B. Calkin, 1872.  Setting: The Evangelical Hymnal, 1921.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: 'The Evangelical Hymnal' 1921, Hymn 404.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves S1 | (S2V1 S2V2) 
+V: S1 clef=treble 
+V: S2V1 clef=bass 
+V: S2V2 
+K: Eb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%
+% 1
+[V: S1] [Q:1/4=100] E & E | [E3/2G3/2] [E/^F/] [EG] [_DG] | [=D3/2A3/2] [D/G/] [DA] [E=A] | [EB] [Ge] [Gd] [Ec] | [F3/2c3/2] [F/B/] [FB]
+w: 1.~I heard the bells on Christ- mas day Their old fa- mil- iar car- ols play, 
+w: 2.~And thought how, as the day had come, The bel- fries of all Christ- en- dom 
+w: 3.~Till ring- ing, sing- ing on its way The world re- volved from night to day, 
+w: 4.~And in des- pair I bowed my head "There is no peace on earth," I said, 
+w: 5.~Then pealed the bells more loud and deep: "God is not dead, nor doth He sleep; 
+[V: S2V1]  G, | B,3/2 B,/ B, B, | B,3/2 B,/ B, C | B, B, B, E | D3/2 D/ D
+[V: S2V2]  E, | E, B,, E, =E, | F, B,, F, ^F, | G, B,, E, G, | A,3/2 A,/ A,
+% 5
+[V: S1]  [EB] | [E3/2B3/2] [E/A/] [EG] [B,A] | [=B,3/2G3/2] [B,/F/] [CE] [EF] | [EG] [EA] [EB] [Ec] | D3/2 [D/F/] !fermata!E & D3/2 x/ E |]
+w: And wild and sweet the words re- peat Of peace on earth, good will to men. 
+w: Had rolled a- long th'un- bro- ken song Of peace on earth, good will to men. 
+w: A voice, a chime, a chant sub- lime Of peace on earth, good will to men. 
+w: "For hate is strong and mocks the song Of peace on earth, good will to men." 
+w: The wrong shall fail, the right pre- vail With peace on earth, good will to men." 
+[V: S2V1]  E | C3/2 C/ B, E, | G,3/2 G,/ G, A, | B, C B, F, | F,3/2 A,/ G, |]
+[V: S2V2]  G, | A,3/2 A,/ E, E, | D,3/2 D,/ C, F,, | B,, A,, G,, A,, | B,,3/2 B,,/ !invertedfermata!E, |]
+% 11

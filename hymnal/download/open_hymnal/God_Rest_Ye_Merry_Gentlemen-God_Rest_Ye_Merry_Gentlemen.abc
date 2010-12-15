@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.63000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Lk 2:10-11, Ps 46:10		"
+%
+
+X: 1
+T: God Rest Ye Merry Gentlemen
+C: Words: Traditional English.  Music: 'God Rest Ye Merry Gentlemen' Traditional English.  Setting: Carols Old And Carols New, 1918.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: 'Carols Old And Carols New', 1918 carol 722.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+V: S1V2 
+V: S2V1 clef=bass 
+V: S2V2 
+K: G % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=160] E | E B B A | G F E D | E F G A | B3
+w: 1.~God rest ye mer- ry, gen- tle- men, let no- thing you dis- may, 
+w: 2.~In Beth- le- hem, in Is- ra- el, this bless- èd Babe was born, 
+w: 3.~From God our heav'n- ly Fa- * ther a bless- èd an- gel came; 
+w: 4.~"Fear not, then," said the an- * gel, "Let no- thing you a- fright 
+w: 5.~The shep- herds at those ti- * dings re- jo- iced much in mind, 
+[V: S1V2]  E | E G F ^D | E =D C B, | E ^D E E | ^D3
+[V: S2V1]  E, | G, E, F, B, | B, B, G, G, | G, B, B, E, | F,3
+[V: S2V2]  E, | E, E, ^D, B,, | E, B,, C, G,, | C, B,, E, C, | B,,3
+% 5
+[V: S1V1]  E | E B B A | (G F) E D | E F G A | B2 z
+w: Re- mem- ber Christ our Sa- * vior was born on Christ- mas Day; 
+w: And laid with- in a man- * ger up- on this bless- èd morn; 
+w: And un- to cer- tain shep- * herds brought ti- dings of the same; 
+w: This day is born a Sa- * vior of a pure Vir- gin bright, 
+w: And left their flocks a- feed- * ing in tem- pest, storm and wind, 
+[V: S1V2]  E | E G F ^D | (E =D) C B, | E ^D E E | ^D2 z
+[V: S2V1]  E, | G, E, F, B, | (B, B,) G, G, | G, B, B, E, | F,2 z
+[V: S2V2]  E, | E, E, ^D, B,, | (E, B,,) C, G,, | C, B,, E, C, | B,,2 z
+% 9
+[V: S1V1]  B | c A B c | d e B A | G E F G | A2
+w: To save us all from Sa- tan's pow'r when we were gone a- stray. 
+w: The which His mo- ther Ma- * ry did no- thing take in scorn. 
+w: How that in Beth- le- hem was born the Son of God by name. 
+w: To free all those who trust in Him from Sa- tan's pow'r and might." 
+w: And went to Beth- l?em straight- aw- ay this bless- èd Babe to find. 
+[V: S1V2]  E | E D D G | =F E D ^D | E ^C D G | F2
+[V: S2V1]  ^G, | A, A, G, G, | G, G, G, F, | G, G, A, D | (D C)
+[V: S2V2]  E, | A, F, G, E, | B,, C, G,, B,, | E, E, D, B,, | D,2
+% 13
+[V: S1V1]  (G A) | B2 c B | (B A) G F | E2 G/F/ E | A2 (G A) | (B c) d e | (B A) G F | E3 |]
+w: O * ti- dings of com- * fort and joy, com- fort and joy; O * ti- * dings of com- * fort and joy. 
+[V: S1V2]  (G D) | D2 E D | (G F) E ^D | E2 B,/B,/ ^C | D2 (E F) | G2 G G | (G F) E ^D | E3 |]
+[V: S2V1]  (B, A,) | G,2 G, G, | (D C) B, B, | G,2 G,/G,/ G, | (F, A,) (D C) | (B, G,) D C | (D C) B, B, | G,3 |]
+[V: S2V2]  (E, F,) | G,2 C, G, | (G,, A,,) B,, B,, | E,2 E,/E,/ E, | (D, C,) (B,, A,,) | (G,, E,) B,, C, | (G,, A,,) B,, B,, | E,3 |]
+% 22
+W: 6.But when to Bethlehem they came where our dear Savior lay,
+W: They found Him in a manger where oxen feed on hay;
+W: His mother Mary kneeling unto the Lord did pray.
+W:
+W: 7.Now to the Lord sing praises all you within this place,
+W: And with true love and brotherhood each other now embrace;
+W: This holy tide of Christmas all others doth deface.
+W: 
+W: 8.God bless the ruler of this house, and send him long to reign,
+W: And many a merry Christmas may live to see again;
+W: Among your friends and kindred that live both far and near
+W: That God send you a happy new year, happy new year,
+W: And God send you a happy new year.

@@ -1,0 +1,157 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.590000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Rev 19:12, 5:13		"
+%
+
+X: 1
+T: Crown Him With Many Crowns
+C: Words: Verses 1, 4, 5, 6 & 9: Matthew Bridges, The Passion of Jesus, 1852; verses 2 & 3: Godfrey Thring, Hymns and Sacred Lyrics, 1874.
+C: Music: 'Diademata' George J. Elvey, 1868.  Setting: PD from Lutheran Worship, 1982.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: 'Lutheran Worship' Hymnal, 1982 Hymn 278.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+V: S1V2 
+V: S2V1 clef=bass 
+V: S2V2 
+K: D % key signature
+%
+%%MIDI program 1 1 % Piano 2
+%%MIDI program 2 1 % Piano 2
+%%MIDI program 3 1 % Piano 2
+%%MIDI program 4 1 % Piano 2
+%
+% 1
+[V: S1V1] [Q:1/4=100] [A,D] [A,/D/][A,/D/] [DF] [DF] | [D3B3] [DB] | [DA] D [CG] [DF] | [C3E3] [CE] |
+w: 1.~Crown Him with man- y crowns, the Lamb up- on His throne. Hark! 
+w: 2.~Crown Him the vir- gin's Son, the God in- car- nate born, Whose 
+w: 3.~Crown Him the Son of God, be- fore the worlds be- gan, And 
+w: 4.~Crown Him the Lord of life, who tri- umphed o'er the grave, And 
+w: 5.~Crown Him the Lord of peace, Whose pow'r a scep- ter sways From 
+[V: S1V2]  x4 | x4 | x D x2 | x4 |
+[V: S2V1]  x4 | x3 G, | x4 | x4 |
+[V: S2V2]  [D,F,] [D,/F,/][D,/F,/] [B,,F,] [B,,F,] | [G,,3G,3] G, | [F,A,] [G,B,] [E,G,] [D,A,] | [A,,3A,3] [A,,A,] |
+% 5
+[V: S1V1]  [DF] [EA] [DB] [DA] | [B,^G] F/E/ [EA] [Dd] | [Ec] [Fd] [B,B] [EB] | [C3A3] [CA] |
+w: How the heav'n- ly an- them * drowns all mu- sic but its own. A- 
+w: arm those crim- son tro- phies * won which now His brow a- dorn; Fruit 
+w: ye who tread where He hath * trod, crown Him the Son of Man; Who 
+w: rose vic- tor- ious in the * strife for those He came to save. His 
+w: pole to pole, that wars may * cease, and all be prayer and praise. His 
+[V: S1V2]  x4 | x B, x2 | x4 | x4 |
+[V: S2V1]  x4 | E, x3 | x4 | A,3 A, |
+[V: S2V2]  [D,A,] [C,A,] [B,,F,] [D,F,] | E, [D,^G,] [C,A,] [B,,G,] | [A,,A,] [D,A,] [E,A,] [E,^G,] | A,3 =G, |
+% 9
+[V: S1V1]  [DA] [DF] [CE] D | [D3B3] [^DB] | [EB] [E^G] [=DF] E | [C3c3] [Ec] |
+w: wake, my soul, and sing of Him who died for thee, And 
+w: of the mys- tic rose, as of that rose the stem; The 
+w: ev- ery grief hath known that wrings the hu- man breast, And 
+w: glo- ries now we sing, Who died, and rose on high, Who 
+w: reign shall know no end, and round His pierc- ed feet Fair 
+[V: S1V2]  x3 D | x4 | x3 D | x4 |
+[V: S2V1]  x4 | x4 | x4 | A,3 A, |
+[V: S2V2]  [F,A,] [D,A,] [E,G,] [F,A,] | [G,3B,3] [F,A,] | [E,^G,] [E,B,] [F,A,] [^G,B,] | A,3 =G, |
+% 13
+[V: S1V1]  d3/2 c/ [DB] [DA] | [DG] [CE] [DF] [DA] | [DG] [DF] E [CE] | D4 |]
+w: hail Him as thy match- less King through all e- ter- ni- ty. 
+w: root whence mer- cy ev- er flows, the Babe of Beth- le- hem. 
+w: takes and bears them for His own, that all in Him may rest. 
+w: died e- ter- nal life to bring, and lives that death may die. 
+w: flow'rs of pa- ra- dise ex- tend their fra- grance ev- er sweet. 
+[V: S1V2]  D D x2 | x4 | x2 D x | D4 |]
+[V: S2V1]  x2 G, x | x A, x2 | x2 A,3/2 G,/ | F,4 |]
+[V: S2V2]  [F,A,] [F,A,] G, [F,A,] | [E,B,] A, [D,A,] [F,,A,] | [G,,B,] [D,A,] A,, A,, | D,4 |]
+% 18
+W:6.Crown Him the Lord of love,
+W: behold His hands and side,
+W:Those wounds, yet visible above,
+W: in beauty glorified.
+W:No angel in the sky
+W: can fully bear that sight,
+W:But downward bends his burning eye
+W: at mysteries so bright.
+W:
+W:7.Crown Him the Lord of Heaven, 
+W: enthroned in worlds above,
+W:Crown Him the King to Whom is given
+W: the wondrous name of Love.
+W:Crown Him with many crowns,
+W: as thrones before Him fall;
+W:Crown Him, ye kings, with many crowns,
+W: for He is King of all.
+W:
+W:8.Crown Him the Lord of lords,
+W: who over all doth reign,
+W:Who once on earth, the incarnate Word,
+W: for ransomed sinners slain,
+W:Now lives in realms of light,
+W: where saints with angels sing
+W:Their songs before Him day and night,
+W: their God, Redeemer, King.
+W:
+W:9.Crown Him the Lord of years,
+W: the Potentate of time,
+W:Creator of the rolling spheres,
+W: ineffably sublime.
+W:All hail, Redeemer, hail!
+W: For Thou has died for me;
+W:Thy praise and glory shall not fail
+W: throughout eternity.

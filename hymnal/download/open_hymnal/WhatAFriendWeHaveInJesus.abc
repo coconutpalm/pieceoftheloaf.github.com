@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Jn 15:13, Mt 7:7-8, Heb 4:15, Jn 15:14-16, 1Pt 2:24		"
+%
+
+X: 1
+T: What A Friend We Have In Jesus
+C: Words: Joseph M. Scriven, 1855. 
+C: Music: untitled by Charles C. Converse, 1868.  Setting: PD from Lutheran Worship, 1982.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: 'Lutheran Worship' Hymnal, 1982 Hymn 516.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves S1 | S2 
+V: S1 clef=treble 
+V: S2 clef=bass 
+K: F % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%
+% 1
+[V: S1]  [Q:1/4=100] [F3/2c3/2] [F/c/] [F/d/][F/c/] [F/A/][C/F/] | [D2F2] [B,2D2] | C3/2 [C/F/] [C/A/][C/F/] [F/c/][F/A/] & C3/2 x2 x/ | [E3G3] z | 
+w: 1.~What a Friend we have in Je- sus, all our sins and griefs to bear! 
+w: 2.~Have we tri- als and temp- ta- tions? Is there trou- ble a- ny- where? 
+w: 3.~Are we weak and hea- vy la- den, cum- bered with a load of care? 
+w: 4.~Bless- ed Sa- vior, Thou hast pro- mised Thou wilt all our bur- dens bear 
+[V: S2]  [F,3/2A,3/2] [F,/A,/] [F,/B,/][F,/A,/] [F,/C/][F,/A,/] | [B,,2B,2] [B,,2F,2] | [F,3/2A,3/2] [F,/A,/] [F,/A,/][F,/A,/] [F,/A,/][F,/C/] | [C,3C3] z |
+% 5
+[V: S1]  [F3/2c3/2] [F/c/] [F/d/][F/c/] [F/A/][C/F/] | [D2F2] [B,2D2] | [A,3/2C3/2] [C/F/] [F/A/][C/G/] [C/F/][C/E/] | [C3F3] z |
+w: What a priv- i- lege to car- ry ev- ery- thing to God in prayer! 
+w: We should ne- ver be dis- cour- aged; take it to the Lord in prayer. 
+w: Pre- cious Sa- vior, still our re- fuge, take it to the Lord in prayer. 
+w: May we ev- er, Lord, be bring- ing all to Thee in earn- est prayer. 
+[V: S2]  [F,3/2A,3/2] [F,/A,/] [F,/B,/][F,/A,/] [F,/C/][F,/A,/] | [B,,2B,2] [B,,2F,2] | [C,3/2F,3/2] [C,/A,/] [C,/C/][C,/B,/] [C,/A,/][C,/G,/] | [F,3A,3] z |
+% 9
+[V: S1]  [E3/2G3/2] [^D/^F/] [E/G/][=F/A/] [G/B/][E/G/] | [F2A2] [F2c2] | [F3/2d3/2] [F/d/] [F/c/][F/A/] [G/B/][F/A/] | [E3G3] z |
+w: O what peace we of- ten for- feit, O what need- less pain we bear, 
+w: Can we find a friend so faith- ful who will all our sor- rows share? 
+w: Do your friends des- pise, for- sake you? Take it to the Lord in prayer! 
+w: Soon in glo- ry bright un- cloud- ed there will be no need for prayer 
+[V: S2]  [C,3/2C3/2] [C,/C/] [C,/C/][C,/C/] [C,/C/][C,/C/] | [F,2C2] [F,2A,2] | B,3/2 B,/ [A,/C/][F,/C/] [E,/C/][F,/C/] | C3 z | 
+% 13
+[V: S1]  [F3/2c3/2] [F/c/] [F/d/][F/c/] [F/A/][C/F/] | [D2F2] [B,2D2] | [A,3/2C3/2] [C/F/] [F/A/][C/G/] [C/F/][C/E/] | [C3F3] z |]
+w: All be- cause we do not ca- rry ev- ery- thing to God in prayer.
+w: Je- sus knows our ev- ery weak- ness; take it to the Lord in prayer.
+w: In His arms He'll take and shield you; you will find a so- lace there.
+w: Rap- ture, praise and end- less wor- ship will be our sweet por- tion there.
+[V: S2]  [F,3/2A,3/2] [F,/A,/] [F,/B,/][F,/A,/] [F,/C/][F,/A,/] | [B,,2B,2] [B,,2F,2] | [C,3/2F,3/2] [C,/A,/] [C,/C/][C,/B,/] [C,/A,/][C,/G,/] | [F,3A,3] z |]
+% 17

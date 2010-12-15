@@ -1,0 +1,128 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.630000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Lk 2:13-14, 1Cor 15:21-22		"
+%
+
+X: 1
+T: Hark! The Herald Angels Sing
+C: Words: Charles Wesley, 1739., alt.  
+C: Music: 'Mendelssohn' from 'Festgesang' Felix Mendelssohn, 1840; Setting: William H. Cummings, 1857.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: 'Lutheran Worship' Hymnal, 1982 Hymn 49.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+V: S1V2 
+V: S2V1 clef=bass 
+V: S2V2 
+K: F % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] C [CF] [C3/2F3/2] [C/E/] | [CF] [FA] ('([FA] [EG])) | [Fc] [Ec] c3/2 B/ | [FA] [EG] [F2A2] |
+w: 1.~Hark! The her- ald an- gels sing, * "Glo- ry to the new- born King; 
+w: 2.~Christ, by high- est Heav'n a- dored; * Christ the ev- er- last- ing Lord; 
+w: 3.~Hail the heav'n- ly Prince of Peace! * Hail the Sun of Right- eous- ness! 
+w: 4.~Come, De- sire of na- tions, come, * Fix in us Thy hum- ble home; 
+w: 5.~Ad- am's like- ness, Lord, ef- face, * Stamp Thine im- age in its place: 
+[V: S1V2]  C x3 | x4 | x2 D G | x4 |
+[V: S2V1]  x2 A,3/2 G,/ | x4 | x4 | x4 |
+[V: S2V2]  [F,A,] [F,A,] F, C, | [A,,F,] [F,,C] [C,2C2] | [A,,C] [A,,C] [B,,D] [B,,D] | [C,C] [C,C] [F,2C2] |
+% 5
+[V: S1V1]  C [CF] [C3/2F3/2] [C/E/] | [A,F] [FA] (A G) | [Ec] [DG] [E3/2G3/2] [C/E/] | [CE] [=B,D] C2 |
+w: Peace on earth, and mer- cy mild, * God and sin- ners re- con- ciled!" 
+w: Late in time, be- hold Him come, * Off- spring of a vir- gin's womb. 
+w: Light and life to all He brings, * Ris'n with heal- ing in His wings. 
+w: Rise, the wo- man's con- qu'ring Seed, * Bruise in us the ser- pent's head. 
+w: Se- cond Ad- am from a- bove, * Re- in- state us in Thy love. 
+[V: S1V2]  C x3 | x2 F2 | x4 | x2 C2 |
+[V: S2V1]  x2 A,3/2 G,/ | x2 D2 | x2 C3/2 G,/ | x4 |
+[V: S2V2]  [F,A,] [F,A,] F, C, | [D,F,] [C,C] (=B,,3/2 G,,/) | [A,,C] [=B,,D] C, E, | [F,A,] [G,,F,] [C,2E,2] |
+% 9
+[V: S1V1]  [Cc] [Cc] [Cc] F | [GB] [FA] .('([FA] [EG])) | [Cc] [Cc] [Cc] F | [GB] [FA] ('([FA] [EG])) |
+w: Joy- ful, all ye na- tions rise,_ Join the tri- umph of the skies; * 
+w: Veiled in flesh the God- head see;_ Hail th'in- car- nate De- i- ty, * 
+w: Mild He lays His glo- ry by,_ Born that man no more may die. * 
+w: Now dis- play Thy sav- ing po- wer, Ruin- ed na- ture now re- store; * 
+w: Let us Thee, though lost, re- gain,_ Thee, the Life, the in- ner man: * 
+[V: S1V2]  x3 F | x4 | x3 F | x4 |
+[V: S2V1]  C C C x | x4 | C C C x | x4 |
+[V: S2V2]  C C C [A,C] | [E,C] [F,C] [C,2C2] | C C C [A,C] | [E,C] [F,C] [C,2C2] |
+% 13
+[V: S1V1]  [Bd] [Bd] [Bd] [Ac] | [GB] [^FA] [G2B2] | [EG] A/B/ [F3/2c3/2] [C/F/] | [CF] [EG] [F2A2] |
+w: With th'an- gel- ic host pro- claim, "Christ is * born in Beth- le- hem!" 
+w: Pleased with us in flesh to dwell, Je- sus * our Em- man- u- el. 
+w: Born to raise the sons of earth, Born to * give them se- cond birth. 
+w: Now in my- stic un- ion join Thine to * ours, and ours to Thine. 
+w: O, to all Thy- self im- part, Formed in * each be- liev- ing heart. 
+[V: S1V2]  x4 | x4 | x E x2 | x4 |
+[V: S2V1]  x4 | x4 | C C C3/2 A,/ | x4 |
+[V: S2V2]  [B,,D] [B,,D] [B,,D] [B,,D] | [B,,D] [D,D] [G,2D2] | B, B, A, F, | [C,A,] [C,C] [F,2C2] |
+% 17
+[V: S1V1]  d3/2 d/ [Bd] [Ac] | [GB] [^FA] [G2B2] | [CG] A/B/ [F3/2c3/2] F/ | [CF] [CG] [C2F2] |]
+w: Hark! the her- ald an- gels sing, "Glo- ry_ to the new- born King!" 
+[V: S1V2]  B B x2 | x4 | x E x3/2 F/ | x2 x2 |]
+[V: S2V1]  x4 | x2 B,2 | x C C3/2 A,/ | x2 x2 |]
+[V: S2V2]  [B,D] [B,D] [B,D] [A,C] | [G,B,] [^F,A,] G, =F, | [E,C] B, A, F, | [C,A,] [C,B,] [F,2A,2] |]
+% 21

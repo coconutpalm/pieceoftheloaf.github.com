@@ -1,0 +1,158 @@
+Table Of Contents:
+   I. Copyright Notice
+   II. System Requirements
+   III. Installation Instructions
+   IV. Usage
+   V. Removal / Reinstallation
+   VI. Help and Support
+
+
+I. Copyright Notice
+
+The songs LaTeX package is copyright (C) 2008 Kevin W. Hamlen.
+
+It is free software; you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation;
+either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program; if not, write to the Free Software Foundation, Inc., 51 Franklin
+Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+
+II. System Requirements
+
+In order to install and run this software, you will need:
+
+1. a C compiler (by default, the installation attempts to use "cc"),
+2. a LaTeX2e installation (by default, the installation tries "pdflatex"),
+3. tar and gunzip programs (to unpack the songs-x.xx.tar.gz file), and
+4. an installation of GNU Make (to run the Makefile).
+
+
+III. Installation Instructions
+
+1. Unpack the songs-x.xx.tar.gz file (where x.xx is the version number).
+
+     gunzip songs-x.xx.tar.gz
+     tar -xof songs-x.xx.tar
+
+2. Change directory to the songs directory and run the configure script.
+
+     cd songs
+     ./configure
+
+3. Run GNU make (other versions of make are not supported).  On many systems
+the system "make" command is linked to GNU make.  If your version of make is
+not GNU-compatible you will get an error message suggesting you try "gmake"
+or "gnumake" instead of "make".
+
+     gmake
+
+4. To install LaTeX package files and Vim support files in the appropriate
+places on your system, make the "install" target.  (This step is not necessary
+for single-user use of the software.) You can dictate which directories in
+which to install files by defining any or all of the following variables on
+the gmake command-line:
+
+     bindir -       directory for songidx and sbdchk executables
+                      (e.g., "/usr/local/bin" or "~/bin")
+     datadir -      directory for .can data files (required for songidx)
+                      (e.g., "/usr/local/share" or "~/data")
+     texmfpath -    TeX root directory where style files are installed
+                      (e.g., "/usr/share/texmf" or "~/localtexmf")
+     docdir -       directory where documentation should be installed
+                      (e.g., "/usr/local/share/doc/songs" or "~/doc/songs")
+     vimfilespath - directory where vim support files are installed
+                      (e.g., "/usr/share/vim/vimfiles" or "~/.vim")
+
+For example, a typical single-user installation might use:
+
+     gmake install bindir=~/bin datadir=~/data texmfpath=~/localtexmf
+                   docdir=~/doc/songs vimfilespath=~/.vim
+
+Alternatively, you can manually install the relevant files by copying them
+to the appropriate locations on your system.  For example:
+
+     cp src/songidx/songidx src/sbdchk/sbdchk ~/bin
+     mkdir ~/data/songs
+     cp src/songidx/*.can src/sbdchk/hyphdict.tex ~/data/songs
+     mkdir ~/localtexmf/tex/latex/songs
+     cp src/songs/songs.sty ~/localtexmf/tex/latex/songs
+     mkdir ~/doc/songs
+     cp src/songs/songs.pdf ~/doc/songs
+     cp -r src/vim ~/.vim
+
+
+IV. Usage
+
+Running "gmake" will generate three clusters of files:
+
+A. LaTeX Package Style File and Documentation
+
+In songs/src/songs you will find:
+* src/songs/songs.sty: If you don't use "gmake install" to install this LaTeX
+  style file in the system's TeX repository tree then songs.sty must be copied
+  into each directory that has a .tex file that uses the songs package.
+* src/songs/songs.pdf: This file fully documents the songs package and all of
+  its features.  To generate documentation as a .dvi or .ps file instead, use
+  "gmake dvi" or "gmake ps".
+
+B. Sample Song Books
+
+The GNUmakefile in songs/sample generates the sample song books.  There are
+four books in total:
+* sample/chordbook.pdf: a chord book for musicians,
+* sample/lyricbook.pdf: a lyric book for singers,
+* sample/slidebook.pdf: a book of slides for use with a digital projector, and
+* sample/transparencies.pdf: book of transparencies for an overhead projector.
+All four books draw upon the song data contained in the file songs.sbd.  By
+modifying that file, you can change the content of all four books.  To change
+the formatting style of any particular book, change the corresponding
+sample/*.tex file.
+
+You can create a new song book directory by copying the sample directory and
+its contents to a new subdirectory:
+
+     cp -r sample mybook
+     cd mybook
+     gmake
+
+C. Support Utilities (songidx and sbdchk)
+
+* songs/src/songidx/songidx: This program is required for auto-generating song
+  book indexes.  The GNUmakefile in songs/sample invokes it automatically as
+  necessary.
+* songs/src/sbdchk/sbdchk: The sbdchk program is a utility that proofs .sbd
+  files for chord placement errors.  Chords are misplaced if they fall at an
+  invalid hyphenation point or they break a ligature.  To use the sbdchk
+  utility with the sample song books, change to the songs/sample directory and
+  type
+
+     gmake sbdcheck
+
+  This will generate a report file named songs.hyp in the current directory.
+
+
+V. Removal / Reinstallation
+
+To reverse the behavior of "make install", type:
+
+     gmake uninstall
+
+To merely delete all generated files within the songs directory, type:
+
+     gmake clean
+
+
+VI. Support and Bug Reporting
+
+For the most current version of this software as well as author contact
+information, see the songs project homepage at:
+
+     http://songs.sourceforge.net
+

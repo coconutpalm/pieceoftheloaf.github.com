@@ -1,0 +1,13 @@
+- Delete all non-Dru, non-Wheaton songs. 
+
+???s: Jesus is still the same: A Dru song?
+???:  Ft Wayne/Leo songs?  Kingdom Come, etc...
+
+- Get permission from Laura/Dru/Leo people to include their songs under CC, non-commercial license
+- Proofread all songs, put chords in all verses
+- Make sure each song's metadata is correct/up to date
+- Put songs into contents.txt, preferably in the same sections as we use now
+- Add songs from other house churches (get permission)
+- Generate web site
+- Generate transparances, projector slides
+

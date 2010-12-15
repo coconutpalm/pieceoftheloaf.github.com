@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.70000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "1 Cor 3:11, Mt 27:24-25		"
+%
+
+X: 1
+T: The Church's One Foundation
+C: Words: Samuel J. Stone,1866.  Music: 'Aurelia' Samuel S. Wesley, 1864.  Setting: PD from Lutheran Worship, 1982.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: 'Lutheran Worship' Hymnal, 1982 Hymn 289.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves S1 | S2 
+V: S1 clef=treble 
+V: S2 clef=bass 
+K: D % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%
+% 1
+[V: S1] [Q:1/4=130] [DF] | [DF] [DF] [DG] [DF] | [D2F2] [CE] D & x3 D | [B,D] [DB] [DA] [CG] | [D3F3]
+w: 1.~The Church- 's one foun- da- tion Is Je- sus Christ her Lord, 
+w: 2.~She is from ev- ery na- tion, Yet one o'er all the earth; 
+w: 3.~The Church shall ne- ver per- ish! Her dear Lord to de- fend, 
+w: 4.~Though with a scorn- ful won- der Men see her sore op- pressed, 
+w: 5.~'Mid toil and trib- u- la- tion, And tu- mult of her war, 
+[V: S2]  [D,A,] | [D,A,] [D,A,] [D,B,] [D,A,] | [A,,2A,2] [G,,A,] [F,,A,] | [G,,E,] [G,,E,] [A,,F,] [A,,A,] | [D,3A,3]
+% 5
+[V: S1]  [CG] | [DA] [Dd] [Fd] [Ec] | [E2c2] [DB] [FA] | G [EA] [DF] D & G x2 D | [C3E3]
+w: She is His new cre- a- tion By wa- ter and the Word. 
+w: Her char- ter of sal- va- tion, One Lord, one faith, one birth; 
+w: To guide, sus- tain, and cher- ish, Is with her to the end: 
+w: By schi- sms rent a- sun- der, By her- e- sies dis- tressed: 
+w: She waits the con- sum- ma- tion Of peace for- ev- er- more; 
+[V: S2]  [E,A,] | [F,A,] [F,A,] [F,^A,] [F,,A,] | [G,,2^A,2] [G,,B,] [=A,,C] | [B,,D] [C,E] [D,A,] [B,,^G,] | [A,,3A,3]
+% 9
+[V: S1]  [CE] | [DF] [CG] [DA] [DB] | [D2B2] [DA] [Fd] | [F3/2d3/2] [F/c/] [FB] F & x3 F | [E3G3]
+w: From heav'n He came and sought her To be His ho- ly bride; 
+w: One ho- ly Name she bless- es, Par- takes one ho- ly food, 
+w: Though there be those who hate her, And false sons in her pale, 
+w: Yet saints their watch are keep- ing, Their cry goes up, "How long?" 
+w: Till, with the vi- sion glo- rious, Her long- ing eyes are blest, 
+[V: S2]  [A,,A,] | [D,A,] [E,A,] [F,A,] G, & x3 G, | G,2 [F,A,] [B,,B,] & G,2 x2 | [F,3/2B,3/2] [E,/^A,/] [D,B,] [^D,B,] | [E,3B,3]
+% 13
+[V: S1]  E & x3 E | [DF] [DF] [DG] [DF] | [B,2F2] [B,E] [B,D] | [B,D] [B,E] [B,D] [A,C] | [A,3D3] |]
+w: With His own blood He bought her And for her life He died. 
+w: And to one hope she press- es, With ev- ery grace en- dued. 
+w: A- gainst both foe or trai- tor She ev- er shall pre- vail. 
+w: And soon the night of weep- ing Shall be the morn of song! 
+w: And the great Church vic- tor- ious Shall be the Church at rest. 
+[V: S2]  [C,A,] | [D,A,] [D,A,] [D,B,] [D,A,] | [G,,2A,2] [G,,G,] [G,,G,] | [E,,G,] [E,,G,] [A,,E,] [A,,G,] | [D,3F,3] |]
+% 19
+W:6.Yet she on earth hath union
+W:With God the Three in One,
+W:And mystic sweet communion
+W:With those whose rest is won,
+W:With all her sons and daughters
+W:Who, by the Master's hand
+W:Led through the deathly waters,
+W:Repose in Eden land.
+W:
+W:7.O happy ones and holy!
+W:Lord, give us grace that we
+W:Like them, the meek and lowly,
+W:On high may dwell with Thee:
+W:There, past the border mountains,
+W:Where in sweet vales the Bride
+W:With Thee by living fountains
+W:Forever shall abide!

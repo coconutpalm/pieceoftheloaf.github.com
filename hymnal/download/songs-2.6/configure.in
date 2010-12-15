@@ -1,0 +1,57 @@
+# Copyright (C) 2008 Kevin W. Hamlen
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+# MA  02110-1301, USA.
+#
+# The latest version of this program can be obtained from
+# http://songs.sourceforge.net.
+
+AC_PREREQ(2.59)
+AC_INIT(songs,2.6)
+AM_INIT_AUTOMAKE
+AC_CONFIG_SRCDIR([src/songs/songs.dtx])
+AC_CONFIG_HEADER([src/config.h])
+AC_PROG_CC
+AC_PROG_INSTALL
+AM_PROG_MKDIR_P
+AC_PROG_LATEX
+AC_PROG_PDFLATEX
+AC_PROG_MAKEINDEX
+AC_PROG_DVIPS
+AC_PROG_TEXHASH
+AC_PROG_KPSEWHICH
+AC_PATH_VIMFILES
+AM_CONDITIONAL([COND_VIM], [test "x$vimfilespath" != x])
+AC_TEXMF_PATH
+AC_CHECK_HEADERS([stdlib.h stdio.h string.h wchar.h wctype.h])
+AC_C_CONST
+AC_TYPE_SIZE_T
+AC_FUNC_REALLOC
+AC_CHECK_FUNCS([strrchr])
+AH_TOP([
+#ifndef CONFIG_H
+#define CONFIG_H
+])
+AH_BOTTOM([#endif])
+AC_CONFIG_FILES([
+  Makefile
+  src/songs/GNUmakefile
+  src/songidx/Makefile
+  sample/GNUmakefile
+  src/sbdchk/Makefile
+  src/vim/Makefile
+])
+AC_OUTPUT
+

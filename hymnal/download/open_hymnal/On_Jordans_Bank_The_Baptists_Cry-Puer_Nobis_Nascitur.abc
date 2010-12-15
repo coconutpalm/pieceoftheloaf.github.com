@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2006 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%vocalfont     Times-Bold 11.0
+%%exprabove	false
+%%measurebox	false
+%%footer "Jn 1:23, Mt 3:1-12		"
+%
+%%postscript /crdc{	% usage: str x y crdc - cresc, decresc, ..
+%%postscript	/Times-Italic 14 selectfont
+%%postscript	M -6 4 RM show}!
+%%deco rit 6 crdc 20 2 24 ritard.
+%%deco acc 6 crdc 20 2 24 accel.
+
+X: 1
+T: On Jordan's Bank the Baptist's Cry
+C: Words: Charles Coffin, 1736; st. 1-3 translated by John Chandler, 1837; st 4-5 translator unknown.  
+C: Music: 'Puer Nobis Nascitur' Michael Praetorius, 1609. 
+C: Setting: G.R. Woodward (1848-1934) for The English Hymnal, 1906.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: 'The English Hymnal', 1906 Hymn 14.
+M: 3/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+V: S1V2 
+V: S2V1 clef=bass 
+V: S2V2 
+K: D % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1]  [Q:1/4=120] D | D2 E | F2 G | F2 E | D2 D | A2 A | (A B) c | d2 d | d2
+w: 1.~On Jor- dan's bank the Bap- tist's cry An- noun- ces that * the Lord is nigh; 
+w: 2.~Then cleansed be ev- ery breast from sin; Make straight the way * for God with- in; 
+w: 3.~For Thou art our Sal- va- tion, Lord, Our Ref- uge, and * our great Re- ward. 
+w: 4.~Stretch forth Thine hand, to heal our sore, And make us rise * and fall no more; 
+w: 5.~To Him Who left the throne of Heav'n To save man- kind, * all praise be giv'n; 
+[V: S1V2]  A, | B,2 C | D2 D | D2 A, | ^F,2 B, | (D G) F | E2 E | F2 G | F2
+[V: S2V1]  F, | F,2 A, | A,2 D, | (A, B,) C | D2 D | D2 A, | A,2 A, | A,2 B, | A,2
+[V: S2V2]  D, | B,,2 A,, | (D, C,) B,, | (A,, G,,) A,, | D,2 G, | (F, E,) D, | C,2 A,, | D,2 D, | D,2
+% 9
+[V: S1V1]  A | d2 d | c2 A | B2 B | A2 G | A2 F | E2 F | D2 C | !fermata!D2 |]
+w: Come, then, and hear- ken, for he brings Glad ti- dings from the King of kings! 
+w: Pre- pare we in our hearts a home, Where such a might- y Guest may come.  
+w: With- out Thy grace our souls must fade And wi- ther like a flow'r de- cayed. 
+w: Once more up- on Thy peo- ple shine, And fill the world with love di- vine. 
+w: Like praise be to the Fa- ther done, And Ho- ly Spi- rit, Three in One. 
+[V: S1V2]  E | (D F) E | E2 D | B,2 D | D2 B, | E2 D | C2 D | B,2 A, | A,2 |]
+[V: S2V1]  A, | B,2 B, | (A, G,) F, | G,2 G, | F,2 G, | E,2 A, | A,2 A, | (G, F,) E, | !fermata!F,2 |]
+[V: S2V2]  C, | (B,, A,,) ^G,, | A,,2 D, | G,,2 B,, | D,2 E, | C,2 D, | (A,, G,,) F,, | G,,2 A,, | D,2 |]
+% 19

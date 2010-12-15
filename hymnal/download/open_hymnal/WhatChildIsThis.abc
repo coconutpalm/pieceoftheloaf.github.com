@@ -1,0 +1,108 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Lk 2:7, Mt 2:1-11, Phil 2:5-8, Is 53:1-6		"
+%
+
+X: 1
+T: What Child Is This?
+C: Words: William C. Dix, 1865. 
+C: Music: 'Greensleeves', 16th Century English Traditional.  Setting: PD from Lutheran Worship, 1982.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: 'Lutheran Worship' Hymnal, 1982 Hymn 61.
+M: 3/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | S2 
+V: S1V1 clef=treble 
+V: S1V2 
+V: S2 clef=bass 
+K: D % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=70] E/ | [EG] [D/A/] B3/4=c// [G/B/] | [FA] [D/F/] D3/4E// [D/F/] | [B,G] [B,/E/] E3/4^D// E/ | [^D3/2F3/2] B,
+w: 1.~What Child is this * who, laid to rest * On Ma- ry's lap * is sleep- ing? 
+w: 2.~Why lies He in * such mean e- state, * Where ox and ass * are feed- ing? 
+w: 3.~So bring Him in- * cense, gold and myrrh, * Come pea- sant, king * to own Him; 
+[V: S1V2]  E/ | x3/2 D x/ | x3/2 D x/ | x3/2 A, E/ | x3/2 B,
+[V: S2]  [E,/G,/] | [E,B,] [F,/A,/] G, [G,/B,/] | [D,D] [D,/A,/] [D,F,] [D,/A,/] | [E,G,] [E,/G,/] [=C,E,] [C,/E,/] | [B,,3/2B,3/2] [B,,B,]
+% 5
+[V: S1V1]  E/ | [EG] [D/A/] B3/4=c// [G/B/] | [FA] [D/F/] D3/4E// [D/F/] | G3/4F// [=C/E/] ^D3/4^C// [B,/D/] | [B,3/2E3/2] [B,3/2E3/2] |
+w: Whom an- gels greet * with an- thems sweet, * While shep- * herds watch * are keep- ing? 
+w: Good Christ- ians, fear, * for sin- ners here * The si- * lent Word * is plead- ing. 
+w: The King of kings * sal- va- tion brings, * Let lov- * ing hearts * en- throne Him. 
+[V: S1V2]  E/ | x3/2 D x/ | x3/2 D x/ | B, x/ B, x/ | x3 |
+[V: S2]  [E,/G,/] | [E,B,] [F,/A,/] G, [G,/B,/] | [D,D] [D,/A,/] [D,F,] [D,/A,/] | [E,G,] [A,,/A,/] [B,,F,] [B,,/B,/] | [E,3/2A,3/2] [E,3/2G,3/2] |
+% 9
+[V: S1V1]  [F3/2d3/2] [B3/4d3/4][A//c//] [G/B/] | [FA] [D/F/] D3/4E// [D/F/] | [B,G] [B,/E/] E3/4^D// E/ | [^DF] [B,/D/] B,3/2 |
+w: This, this * is Christ the King, * Whom shep- herds guard * and an- gels sing; 
+w: Nails, spear * shall pierce Him through, * The cross be borne * for me, for you. 
+w: Raise, raise * a song on high, * The vir- gin sings * her lul- la- by. 
+[V: S1V2]  x3 | x3/2 D x/ | x3/2 A, E/ | x3/2 B,3/2 |
+[V: S2]  [B,3/2D3/2] [G,D] [G,/D/] | [D,D] [D,/A,/] [D,F,] [D,/A,/] | [E,G,] [E,/G,/] [=C,E,] [C,/E,/] | [B,,3/2B,3/2] [B,,3/2B,3/2] |
+% 13
+[V: S1V1]  [F3/2d3/2] [B3/4d3/4][A//c//] [G/B/] | [FA] [D/F/] D3/4E// [D/F/] | G3/4F// [=C/E/] ^D3/4^C// [B,/D/] | [B,3/2E3/2] [B,E] |]
+w: Haste, haste, * to bring Him laud, * The Babe, * the Son * of Ma- ry. 
+w: Hail, hail * the Word made flesh, * The Babe, * the Son * of Ma- ry. 
+w: Joy, joy * for Christ is born, * The Babe, * the Son * of Ma- ry. 
+[V: S1V2]  x3 | x3/2 D x/ | B, x/ B, x/ | x3/2 x |]
+[V: S2]  [B,3/2D3/2] [G,D] [G,/D/] | [D,D] [D,/A,/] [D,F,] [D,/A,/] | [E,G,] [A,,/A,/] [B,,F,] [B,,/B,/] | [E,3/2A,3/2] [E,G,] |]
+% 18

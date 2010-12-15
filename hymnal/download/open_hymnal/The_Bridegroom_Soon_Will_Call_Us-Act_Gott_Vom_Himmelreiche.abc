@@ -1,0 +1,146 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2006 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.640000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Mt 25:6, Rev 21:2		"
+%
+%%postscript /crdc{	% usage: str x y crdc - cresc, decresc, ..
+%%postscript	/Times-Italic 14 selectfont
+%%postscript	M -6 4 RM show}!
+%%deco rit 6 crdc 20 2 24 ritard.
+%%deco acc 6 crdc 20 2 24 accel.
+
+X: 1
+T: The Bridegroom Soon Will Call Us
+C: Words: Johann Walter, 1552; Translated by Matthias Loy, 1880. 
+C: Music: 'Act Gott Vom Himmelreiche' from Musae Sionae XII, Michael Praetorius, 1609.  
+C: Setting: Evangelical Lutheran Hymn Book, Edition of 1931.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: 'Evangelical Lutheran Hymn Book' Edition of 1931,  Hymn 134.
+M: 3/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+V: S1V2 
+V: S2V1 clef=bass 
+V: S2V2 
+K: G % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=160] D | G2 G | A2 c | (B3/2 A/ B) | A2 A | G2 G | c2 B | !fermata!A2
+w: 1.~The Bride- groom soon will call * * us, Come, all ye wed- ding guests! 
+w: 2.~There shall we see de- light- * * ed Our dear Re- deem- er's face, 
+w: 3.~They will not blush to own * * us As bro- thers, sis- ters dear, 
+w: 4.~Our Fa- ther, rich in bless- * * ing, Will give us crowns of gold 
+w: 5.~In yon- der home shall ne- * * ver Be si- lent mu- sic's voice; 
+[V: S1V2]  B, | D2 B, | D2 E | E3 | ^C2 D | D2 C | C2 D | !fermata!D2
+[V: S2V1] G, | G,2 G, | F,2 A, | (^G,3/2 F,/ ^G,) | A,2 F, | G,2 E, | E,2 G, | !fermata!F,2
+[V: S2V2]  G, | B,,2 E, | D,2 A,, | E,3 | A,,2 D, | B,,2 C, | A,,2 G,, | !fermata!D,2
+% 9
+[V: S1V1]  B | E2 F | G2 A | (F3/2 E/ F) | D2 B | B2 d | c2 c | !fermata!B2
+w: May not His voice ap- pall * * us, While slum- ber binds our breasts; 
+w: Who leads our souls be- night- * * ed To glo- ry by His grace; 
+w: Love ev- er will be shown * * us When we with them ap- pear; 
+w: And, to His bo- som press- * * ing, Im- part a bliss un- told, 
+w: With hearts and lips for- ev- * * er We shall in God re- joice; 
+[V: S1V2]  D | B,2 D | E2 E | D3 | D2 D | D2 D | E2 C | !fermata!D2
+[V: S2V1]  F, | G,2 A, | C2 C | (A,3/2 G,/ A,) | F,2 G, | G,2 F, | (A, E,) F, | !fermata!G,2
+[V: S2V2]  D, | E,2 D, | C,2 A,, | D,3 | D,2 G,, | G,,2 B,, | A,,2 A,, | !fermata!G,,2
+[V: S2V2] 
+% 17
+[V: S1V1]  B | B2 d | A2 B | (c3/2 d/ c) | B2 B | B2 d | c2 B | !fermata!A2
+w: May all our lamps be burn- * * ing, And oil be found in store, 
+w: The pa- tri- archs shall meet * * us, The pro- phets' ho- ly band, 
+w: We all shall come be- fore * * Him, Who for us Man be- came, 
+w: Will wel- come with em- bra- * * ces Of nev- er end- ing love, 
+w: The an- gels shall a- dore * * Him, All saints shall sing His praise, 
+[V: S1V2]  D | D2 F | D2 D | (E3/2 D/ E) | D2 D | D2 F | G2 G | !fermata!F2
+[V: S2V1]  B, | B,2 A, | F,2 G, | G,3 | G,2 G, | B,2 A, | E2 D | !fermata!D2
+[V: S2V2]  G, | G,2 D, | D,2 G, | C,3 | G,,2 G, | G,2 D, | E,2 G, | !fermata!D,2
+% 21
+[V: S1V1]  B | A2 G | A2 F | (G3/2 F/ G) | A2 B | d2 B | c A2 | !fermata!G2 |]
+w: That we, with Him re- turn- * * ing, May o- pen find the door. 
+w: A- pos- tles, mar- tyrs, greet * * us In that ce- les- tial land. 
+w: As Lord and God a- dore * * Him, And ev- er bless His Name. 
+w: And deck us with His gra- * * ces In bliss- ful realms a- bove. 
+w: And bring with  joy be- fore * * Him Their sweet- est heav'n- ly lays. 
+[V: S1V2]  G | F2 E | E2 D | (D2 E) | F2 D | D2 D | E D2 | !fermata!B,2 |]
+[V: S2V1]  D | D2 B, | C2 A, | (G,3/2 A,/ B,) | A,2 G, | A,2 G, | G, F,2 | !fermata!G,2 |]
+[V: S2V2]  G,, | D,2 E, | A,,2 D, | (B,,3/2 A,,/ G,,) | D,2 G, | F,2 G, | C, D,2 | !fermata!G,,2 |]
+% 31
+W: 6.In mansions fair and spacious
+W: Will God the feast prepare,
+W: And ever kind and gracious,
+W: Bid us its riches share;
+W: There bliss that knows no measure
+W: From springs of love shall flow,
+W: And never changing pleasure
+W: His bounty will bestow.
+W: 
+W: 7.Thus God shall from all evil
+W: Forever make us free,
+W: From sin, and from the devil,
+W: From all adversity,
+W: From sickness, pain, and sadness,
+W: From troubles, cares, and fears,
+W: And grant us heavenly gladness
+W: And wipe away our tears.

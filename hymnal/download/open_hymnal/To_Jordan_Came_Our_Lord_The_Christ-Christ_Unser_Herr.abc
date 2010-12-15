@@ -1,0 +1,146 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2006 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.60000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Mt 3:13-17, Act 2:38		"
+%
+%%postscript /crdc{	% usage: str x y crdc - cresc, decresc, ..
+%%postscript	/Times-Italic 14 selectfont
+%%postscript	M -6 4 RM show}!
+%%deco rit 6 crdc 20 2 24 ritard.
+%%deco acc 6 crdc 20 2 24 accel.
+
+X: 1
+T: To Jordan Came Our Lord, The Christ
+C: Words: Martin Luther, 1541; Translated by Richard Massie, 1854.  
+C: Music: 'Christ, Unser Herr' Johann Walter, 1524.  Setting: Evangelical Lutheran Hymn Book, Edition of 1931.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: 'Evangelical Lutheran Hymn Book' Edition of 1931 Hymn 401.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+V: S1V2 
+V: S2V1 clef=bass 
+V: S2V2 
+K: C % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=120] D2 F G | A G c B | A3 A | c B A G | (F E) D2 | D2 F G |
+w: 1.~To Jor- dan came our Lord the Christ, To do God's plea- sure will- * ing, And there was 
+w: 2.~So hear ye all, and well per- ceive What God doth call bap- ti- * sm, And what a 
+w: 3.~To show us this, He hath His Word With signs and sym- bols gi- * ven; On Jor- dan's 
+w: 4.~In ten- der man- hood Je- sus straight To ho- ly Jor- dan wend- * eth; The Ho- ly 
+w: 5.~Thus Je- sus His dis- ci- ples sent: Go teach ye e- very na- * tion, That lost in 
+[V: S1V2]  D2 D D | E E E E | C3 D | E G F E | (D3/2 ^C/) D2 | D2 D D |
+[V: S2V1]  F,2 A, B, | C B, A, ^G, | A,3 F, | G, G, C C | A,2 F,2 | F,2 A, B, |
+[V: S2V2]  D,2 D, B,, | A,, E, C,/D,/ E, | A,,3 D, | C, E, F, C, | (D, A,,) D,2 | D,2 D, B,, |
+% 5
+[V: S1V1]  A G c B | A3 A | c B A G | (F E) D2 | z D G G | E A A G | A3
+w: by Saint John bap- tized, All right- eous- ness ful- fill- * ing; There did He con- se- crate a bath 
+w: Christ- ian should be- lieve Who er- ror shuns and schi- * sm: That we should wa- ter use, the Lord 
+w: banks was plain- ly heard The Fa- ther's voice from Hea- * ven: "This is My well- be- lo- ved Son, 
+w: Ghost from Hea- ven's gate In dove- like shape de- scen- * deth; That thus the truth be not de- nied, 
+w: sin they must re- pent; And flee from con- dem- na- * tion: He that be- lieves and is bap- tized,
+[V: S1V2]  E E E E | C3 D | E G F E | (D3/2 ^C/) D2 | x D E D | C E F E | C3
+[V: S2V1]  C B, A, ^G, | A,3 F, | G, G, C C | A,2 F,2 | z F, G, G, | G, C D B, | A,3
+[V: S2V2]  A,, E, C,/D,/ E, | A,,3 D, | C, E, F, C, | (D, A,,) D,2 | x D, C, B,, | C, A,, D, E, | A,,3
+% 13
+[V: S1V1]  A | d d e3/2 c/ | (d/ c/ B) A2 | z A c B | A G A F | E3 
+w: To wash a- way trans- gres- * * sion, And quench the bit- ter- ness of death 
+w: De- clar- eth it His plea- * * sure; Not sim- ple wa- ter, but the Word
+w: In whom My soul de- light- * * eth; Hear Him." Yea, hear Him e- very one 
+w: Nor should our faith e'er wa- * * ver, That the Three Per- sons all pre- side, 
+w: Ob- tains a might- y bless- * * ing; A new- born man, no more he dies, 
+[V: S1V2]  E | G A ^G3/2 A/ | (F/ A ^G/) A2 | z C E G | F E E D | ^C3 
+[V: S2V1]  C | B, A, B,3/2 A,/ | (A, E) C2 | z A, G, G, | C C C A, | A,3
+[V: S2V2]  A, | G, F, E,3/2 F,/ | (D, E,) A,,2 | z F, C, E, | F, C, A,, D, | A,,3
+% 17
+[V: S1V1] D | F G A3/2 F/ | (G/F/ E) D2 | z d d d | e d (c B) | A4 |]
+w: By His own blood and pas- * * sion; He would a new life give * us. 
+w: And Spi- rit with- out mea- * * sure; He is the true Bap- ti- * zer. 
+w: Whom He Him- self in- vi- * * teth, Hear and o- bey His teach- * ing. 
+w: At bap- tism's ho- ly la- * * ver, And dwell with the be- lie- * ver. 
+w: E- ter- nal life pos- ses- * * sing, A joy- ful heir of Hea- * ven. 
+[V: S1V2]  A, | D3/2 E/ F3/2 D/ | (D3/2 ^C/) D2 | z F D G | G F E2 | ^C4 |]
+[V: S2V1]  F, | _B, B, C3/2 B,/ | (_B,/A,/ A,) F,2 | z A, A, B, | C A, (A, ^G,) | A,4 |]
+[V: S2V2]  D, | _B,, G,, F,,3/2 _B,,/ | (G,,/D,/ A,,) D,2 | z D, F, G, | C, D, (A,, E,) | A,,4 |]
+% 25
+W: 6.Who in this mercy hath not faith,
+W: Nor aught therein discerneth,
+W: Is yet in sin, condemned to death,
+W: And fire that ever burneth;
+W: His holiness avails him not,
+W: Nor aught which he is doing;
+W: His inborn sin brings all to naught,
+W: And maketh sure his ruin;
+W: Himself he cannot succor.
+W: 
+W: 7.The eye of sense alone is dim,
+W: And nothing sees but water;
+W: Faith sees Christ Jesus, and in Him
+W: The Lamb ordained for slaughter;
+W: She sees the cleansing fountain red
+W: With the dear blood of Jesus,
+W: Which from the sins inherited
+W: From fallen Adam frees us,
+W: And from our own misdoings.

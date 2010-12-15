@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2006 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.710000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Jn 14:1-4, 1Cor 15:35-38		"
+%
+%%postscript /crdc{	% usage: str x y crdc - cresc, decresc, ..
+%%postscript	/Times-Italic 14 selectfont
+%%postscript	M -6 4 RM show}!
+%%deco rit 6 crdc 20 2 24 ritard.
+%%deco acc 6 crdc 20 2 24 accel.
+
+X: 1
+T: Despair Not, O Heart
+C: Words: Aurelius Clemens Prudentius, 348-413; translated by Edward Traill Horn III, 1909-. 
+C: Music: 'Iam Moesta' or 'Jam Moesta' or 'Despair Not O Heart' or 'Med Sorgen Og Klagen' 
+C: unknown, sometimes attr. Martin Luther, 1542.  Setting: The Wartburg Hymnal, 1918, alt.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: 'The Wartburg Hymnal', 1918 Hymn 125.
+M: 2/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+V: S1V2 
+V: S2V1 clef=bass 
+V: S2V2 
+K: F % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1]  F | B G/G/ | A G/F/ | G2 | F F | G A/A/ | c B/A/ | G2 | A
+w: 1.~De- spair not, O heart, in thy sor- row, From God's own as- sur- an- ces bor- row 
+w: 2.~As seed in the spring- time is plant- ed, And rests in the earth un- til grant- ed 
+w: 3.~So we, a- mid sor- row and weep- ing Com- mit- ted, O earth, to thy keep- ing, 
+w: 4.~O Lord, at thy com- ing in glo- ry, When all shall bow down and a- dore thee, 
+[V: S1V2]  F | F F/E/ | F E/C/ | (D E) | F F | E F/F/ | E E/F/ | D2 | E
+[V: S2V1]  A, | B, D/C/ | C B,/A,/ | (G, B,) | A, A, | B, C/D/ | G, G,/F,/ | D2 | ^C
+[V: S2V2]  F, | D, B,,/C,/ | F,, G,,/A,,/ | (B,, C,) | F, D, | G, F,/D,/ | C, C,/D,/ | B,,2 | A,,
+% 9
+[V: S1V1]  F | A G/G/ | F E/C/ | D2 | C c | d B/B/ | c B/A/ | G2 | F |]
+w: The prom- ise that Je- sus has gi- ven: That life has in death its be- gin- ing. 
+w: God's bless- ing of warmth and of show- ers, And blos- soms in leaf- lets and flow- ers; 
+w: Shall, giv- en new life and per- fec- tion, Come forth in the great res- ur- rec- tion. 
+w: Then forth from thy tomb's o- pen por- tal, o lead us to man- sions im- mor- tal. 
+[V: S1V2]  D | C D/C/ | =B, C/C/ | =B,2 | C F | F G/G/ | G E/F/ | (D E) | C |]
+[V: S2V1]  A, | A, =B,/G,/ | G, G,/E,/ | F,2 | E, F, | F, G,/D/ | C G,/F,/ | B,2 | A, |]
+[V: S2V2]  D, | F, F,/E,/ | D, C,/C,/ | G,,2 | C, A,, | B,, G,/F,/ | E, C,/D,/ | (B,, C,) | F,, |]
+% 19

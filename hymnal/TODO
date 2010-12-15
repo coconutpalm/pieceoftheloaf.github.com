@@ -1,0 +1,54 @@
+- Delete all non-Dru, non-Wheaton songs. 
+
+???s: Jesus is still the same: A Dru song?
+???:  Ft Wayne/Leo songs?  Kingdom Come, etc...
+
+- Get permission from Laura/Dru/Leo people to include their songs under CC, non-commercial license
+- Proofread all songs, put chords in all verses
+- Make sure each song's metadata is correct/up to date
+- Put songs into contents.txt, preferably in the same sections as we use now
+- Add songs from other house churches (get permission)
+- Generate web site
+- Generate transparances, projector slides
+
+
+
+Advantages:
+
+- Simple to notate lead sheets
+- Straightforward for musicians to notate western musical scores
+- Uses no special software to notate scores or lead sheets
+- Can incorporate scores and lead sheets into the same doc
+- One source for scores / lead sheets / congregational books / overheads / web site
+- Uses standard software used by real book publishers in book production
+- All software used is free and runs on all platforms
+
+Desired output formats:
+- Musician's songbook PDF with scores where available
+- Musician's songbook PDF with only lead sheets
+- Congregational songbook PDF with words only
+- Overhead transparancy PDF with words only
+- HTML songbook with linked MIDI or MP3 files by each song
+- .ISO file for burning all output to a CD
+- ZIP file with full source distribution and output
+- ZIP file with full source distribution, output, and necessary build tools
+   (Windows/Linux versions)
+
+
+NOTES:
+
+- Build PDF of book (have to do twice to get indexes):
+
+latex book.tex
+songidx titleidx.sxd titleidx.sbx
+latex book.tex
+dvipdf book.dvi
+
+(PDFLatex wouldn't include the figures with the scores.)
+
+- Build epsi/pdf file of notated score:
+
+abcm2ps -O = i_will_plead.abc
+ps2epsi i_will_plead.ps
+epstopdf ...
+

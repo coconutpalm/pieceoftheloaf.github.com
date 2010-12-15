@@ -1,0 +1,112 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Gal 6:14, Rm 7:24		"
+%
+
+X: 1
+T: When I Survey the Wondrous Cross
+C: Words: Isaac Watts, 1707.  
+C: Music: 'Rockingham Old' Edward Miller, 1790.  Setting: PD from Lutheran Worship, 1982.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: 'Lutheran Worship' Hymnal, 1982 Hymn 114.
+M: 3/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+V: S1V2 
+V: S2V1 clef=bass 
+V: S2V2 
+K: D % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=130] D | (F G) [A,E] | D2 [DF] | [D2A2] [DB] | [D2A2] [DA] | [D2d2] [Dc] |
+w: 1.~When I * sur- vey the wond- rous cross On which the 
+w: 2.~For- bid * it, Lord, that I should boast, Save in the 
+w: 3.~See from * His head, His hands, His feet, Sor- row and 
+w: 4.~His dy- * ing crim- son, like a robe, Spreads o'er His
+w: 5.~Were the * whole realm of na- ture mine, That were a 
+[V: S1V2] D | D2 x | D2 x | x3 | x2 x | x2 x |
+[V: S2V1] x | (B, G,) x | x3 | x2 G, | x3 | (F, G,) x |
+[V: S2V2] [D,F,] | B,,2 [C,G,] | [D,2F,2] [B,,B,] | [F,2A,2] G, | [D,2F,2] [D,F,] | B,,2 [F,A,] |
+% 9
+[V: S1V1]  B2 [FA] | (A G) [DF] | ('([DF] [CE])) [CE] | [C2A2] [EB] | [E2c2] [CA] |
+w: Prince of glo- * ry died, * My rich- est gain I 
+w: death of Christ * my God! * All the vain things that 
+w: love flow min- * gled down! * Did e'er such love and 
+w: bo- dy on * the tree; * Then I am dead to 
+w: pre- sent far * too small; * Love so a- maz- ing, 
+[V: S1V2]  (D E) x | E2 x | x3 | x3 | x3 |
+[V: S2V1]  (B, C) x | x3 | x2 A, | x3 | A,2 A, |
+[V: S2V2]  G,2 [F,D] | [C,2A,2] [D,A,] | [A,,2A,2] A, | [F,2A,2] [E,^G,] | A,2 =G, |
+% 13
+[V: S1V1]  (d F) [D^G] | [C2A2] D | G2 [DF] | [C2E2] D | (D/E/ F) [CE] | D2 |]
+w: count * but loss, And pour con- tempt on all * * my pride. 
+w: charm * me most, I sac- ri- fice them to * * His blood. 
+w: sor- * row meet, Or thorns com- pose so rich * * a crown? 
+w: all * the globe, And all the globe is dead * * to me. 
+w: so * di- vine, De- mands my soul, my life, * * my all. 
+[V: S1V2]  D2 x | x2 D | (B, C) x | x2 D | D2 x | D2 |]
+[V: S2V1]  x3 | x3 | x3 | (A, G,) x | x3 | x2 |]
+[V: S2V2]  (,([F,A,] [D,B,])) [E,B,] | [A,,2A,2] [F,A,] | [E,2G,2] [D,A,] | A,,2 [B,,F,] | (,([G,,B,] [A,,A,])) [A,,=G,] | [F,2D,2] |]
+% 17

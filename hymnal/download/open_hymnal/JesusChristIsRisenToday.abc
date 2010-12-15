@@ -1,0 +1,119 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.730000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Mt 28:6, Lk 24:5-7		"
+%
+
+X: 1
+T: Jesus Christ Is Risen Today
+C: Words: 14th Century Bohemian Latin carol. Stanza 1, translated in Lyra Davidica, 1708; stanzas 2,3 
+C: from John Arnold's Complete Psalmist, 1749; stanza 4, Charles Wesley 1740, alt.
+C: Music: 'Easter Hymn' Lyra Davidica, 1708.  Setting: PD from Lutheran Worship, 1982.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: 'Lutheran Worship' Hymnal, 1982 Hymn 127.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+V: S1V2 
+V: S2V1 clef=bass 
+V: S2V2 
+K: C % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1]  [Q:1/4=120] C [CE] [DG] C | [CF] [FA] ('([FA] [EG])) | (E/F/G/C/ F) E/F/ | (,([CE] [B,D])) C2 |
+w: 1.~Je- sus Christ is ris'n to- day, * Al- * * * * le- * lu- * ia! 
+w: 2.~Hymns of praise then let us sing, * Al- * * * * le- * lu- * ia! 
+w: 3.~But the pain which He en- dured, * Al- * * * * le- * lu- * ia! 
+w: 4.~Sing we to our God a- bove, * Al- * * * * le- * lu- * ia! 
+[V: S1V2] C x2 C | x4 | (C2 C/B,/) C | x2 C2 |
+[V: S2V1] x4 | x4 | (G,2 A,/F,/) x | (G,3/2 F,/) x2 |
+[V: S2V2] [C,E,] [C,G,] [B,,G,] [C,E,] | [A,,F,] [F,,C] [C,2C2] | (C,/D,/ E, D,) [C,/G,/][F,,/A,/] | G,,2 [C,2E,2] |
+% 5
+[V: S1V1]  [CF] [CG] [CA] [CG] | F [CE] (,([CE] [B,D])) | (E/F/G/C/ F) E/F/ | (,([CE] [B,D])) C2 |
+w: Our tri- um- phant ho- ly day, * Al- * * * * le- * lu- * ia! 
+w: Un- to Christ, our heav'n- ly King, * Al- * * * * le- * lu- * ia! 
+w: Our sal- va- tion hath pro- cured, * Al- * * * * le- * lu- * ia! 
+w: Praise e- ter- nal as His love, * Al- * * * * le- * lu- * ia! 
+[V: S1V2]  x4 | C/B,/ x3 | (C2 C/B,/) C | x2 C2 |
+[V: S2V1]  x2 F, x | A,/F,/ x3 | (G,2 A,/F,/) x | (G,3/2 F,/) x2 |
+[V: S2V2]  [A,,F,] [C,E,] F, [E,G,] | D, [C,G,] [G,,2G,2] | (C,/D,/ E, D,) [C,/G,/][F,,/A,/] | G,,2 [C,2E,2] |
+% 9
+[V: S1V1]  B c [Gd] G | [Gc] [Fd] [E2e2] | (B/c/d/G/ c) B/c/ | ('([GB] [^FA])) G2 |
+w: Who did once, up- on the cross, Al- * * * * le- * lu- * ia! 
+w: Who en- dured the cross and grave, Al- * * * * le- * lu- * ia! 
+w: Now a- bove the sky He's king, Al- * * * * le- * lu- * ia! 
+w: Praise Him, all you heav'n- ly host, Al- * * * * le- * lu- * ia! 
+[V: S1V2]  G3/2 ^F/ x2 | x4 | (G2 G/^F/) G | x4 |
+[V: S2V1]  x3 B, | C3/2 B,/ x2 | (D2 D) x | (D3/2 C/) x2 |
+[V: S2V2]  [G,,D] [A,,C] [B,,B,] G,/=F,/ | E, D, [C,2C2] | (G,/A,/ B, A,) [G,/D/][E,/C/] | D,2 [G,,2B,2] |
+% 13
+[V: S1V1]  [B,/G/][C/A/] [D/B/][B,/G/] [Cc] [CE] | [CF] [FA] ('([FA] [EG])) | (,([E/c/][F/B/][G/c/][E/G/] A/B/)) [E/c/][D/d/] | ([Ec] B) [E2c2] |]
+w: Suf- * fer * to re- deem our loss, * Al- * * * * * le- * lu- * ia! 
+w: Sin- * ners * to re- deem and save, * Al- * * * * * le- * lu- * ia! 
+w: Where * the * an- gels ev- er sing, * Al- * * * * * le- * lu- * ia! 
+w: Fa- * ther, * Son, and Ho- ly Ghost, * Al- * * * * * le- * lu- * ia! 
+[V: S1V2]  x x x x | x x x x | x/ x/ x/ x/ F x/ x/ | (x G/F/) x2 |]
+[V: S2V1]  G, G, x G, | x4 | (G,3/2 x x/) x | G,2 x2 |]
+[V: S2V2]  G,3/2 F,/ [E,G,] C,/B,,/ | [A,,F,] [F,,C] [C,2C2] | (C,/D,/E,/[C,/C/] [F,/C/][D,/D/]) [E,/G,/][F,/A,/] | (G, G,,) [C,2G,2] |]
+% 17

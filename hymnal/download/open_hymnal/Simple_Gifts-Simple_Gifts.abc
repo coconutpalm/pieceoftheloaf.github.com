@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "2Cor 3:16, 1 Th 1:9, 1Pt 3:11, Ps 116:6		"
+%
+
+X: 1
+T: Simple Gifts
+C: Words and Music: 'Simple Gifts' (Shaker dance) Joseph Brackett, 1848.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: Photograph of the original manuscript in a book I borrowed from the library.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves S1 | S2 
+V: S1 clef=treble 
+V: S2 clef=bass 
+K: G % key signature
+%
+%%MIDI program 1 1 % Piano 2
+%%MIDI program 2 2 % Piano 3
+%
+% 1
+[V: S1] [Q:1/4=120] D/D/ | G G/A/ B/G/ B/c/ | d d/d/ B A/G/ | A A A A |
+w: Tis the gift to be sim- ple, 'tis the gift to be free, 'Tis the gift to come down 
+[V: S2]  D,/D,/ | G, G,/A,/ B,/G,/ B,/C/ | D D/D/ B, A,/G,/ | A, A, A, A, |
+% 5
+[V: S1]  A/B/ A/F/ D D | G/F/ G/A/ B A/A/ | B c d3/4d// c/B/ |
+w: where we ought to be, And when we find our- selves in the place just right, * 'Twill be 
+[V: S2]  A,/B,/ A,/F,/ D, D, | G,/F,/ G,/A,/ B, A,/A,/ | B, C D3/4D// C/B,/ |
+% 9
+[V: S1]  A A/B/ A G/G/ | A G/F/ G2 | d2 B3/2 A/ | B/c/ B/A/ G3/2 A/ |
+w: in the * val- ley of love and de- light. When true sim- pli- ci- ty is gain'd To 
+[V: S2]  A, A,/B,/ A, G,/G,/ | A, G,/F,/ G,2 | D2 B,3/2 A,/ | B,/C/ B,/A,/ G,3/2 A,/ |
+% 13
+[V: S1]  B B/c/ d c/B/ | A A/B/ A D | G2 G3/2 A/ | B B/c/ d c/B/ |
+w: bow and to bend we * shan't be a- sham'd To turn, turn will be our de- light 'Till by 
+[V: S2]  B, B,/C/ D C/B,/ | A, A,/B,/ A, D, | G,2 G,3/2 A,/ | B, B,/C/ D C/B,/ |
+% 17
+[V: S1]  A A B B/A/ | G G G |]
+w: turn- ing, turn- ing we come round right. 
+[V: S2]  A, A, B, B,/A,/ | G, G, G, |]
+% 19

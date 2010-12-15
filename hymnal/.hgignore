@@ -1,0 +1,14 @@
+
+syntax: regexp
+\.epsi$
+syntax: regexp
+\.ps$
+syntax: regexp
+\.pdf$
+syntax: regexp
+\.log$
+syntax: regexp
+\.dvi$
+syntax: regexp
+\.aux$
+\.manager$

@@ -1,0 +1,103 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2006 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Ps 19:8, Rom 3:19-26, Rom 2:12, Ex 18:20		"
+%
+%%postscript /crdc{	% usage: str x y crdc - cresc, decresc, ..
+%%postscript	/Times-Italic 14 selectfont
+%%postscript	M -6 4 RM show}!
+%%deco rit 6 crdc 20 2 24 ritard.
+%%deco acc 6 crdc 20 2 24 accel.
+
+X: 1
+T: The Law Of God Is Good And Wise
+C: Words: Matthias Loy, 1863.  Music: 'Erhalt uns, Herr' from Geistliche Lieder, 1543.
+C: Setting: The Evangelical Lutheran Hymn Book, 1931
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music Souce: The Evangelical Lutheran Hymn Book, 1931 Hymn 274.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves S1 | (S2V1 S2V2) 
+V: S1 clef=treble 
+V: S2V1 clef=bass 
+V: S2V2 
+K: G % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%
+% 1
+[V: S1] [Q:1/4=120] [B,2E2] [B,G] [A,E] | [B,D] [CE] [EG] [^DF] | [B,2E2] [E2G2] | [EA] [FA] [GB] [EG] | [EA] [FA] [G2B2] |
+w: 1.~The law of God is good and wise, And sets His will be- fore our eyes, 
+w: 2.~Its light of ho- li- ness im- parts The know- ledge of our sin- ful hearts, 
+w: 3.~To those who help in Christ have found And would in works of love a- bound 
+w: 4.~When men the off- ered help dis- dain And will- ful- ly in sin re- main, 
+w: 5.~The law is good, but since the fall Its ho- li- ness con- demns us all; 
+[V: S2V1]  G,2 E, E, | F, A, B, B, | G,2 C2 | C D D C | C D D2 |
+[V: S2V2]  E,2 E, C, | B,, A,, G,,/A,,/ B,, | E,,2 C,2 | A,, D, G,, C, | A,, D, G,,2 |
+% 5
+[V: S1]  [D2B2] [Ec] [DB] | [Fd] [GB] [EA] [FA] | [D2G2] [D2B2] | [EG] [EA] [DG] [DF] | [B,E] [B,^D] [B,2E2] |]
+w: Shows us the way of right- eous- ness, And dooms to death when we trans- gress.
+w: That we may see our lost e- state And seek de- liv- 'rance ere too late. 
+w: It shows what deeds are His de- light And should be done as good and right. 
+w: Its ter- ror in their ear re- sounds And keeps their wick- ed- ness in bounds. 
+w: It dooms us for our sin to die And has no pow'r to jus- ti- fy. 
+[V: S2V1]  G,2 G, G, | A, G, C A, | B,2 G,2 | G, C B, A, | G, F, G,2 |]
+[V: S2V2]  G,,2 C, G,, | D, E, C, D, | G,,2 G,,2 | C, A,, B,, D, | E, B,, E,,2 |]
+% 12

@@ -1,0 +1,99 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2006 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Matt 5:8		"
+%
+%%postscript /crdc{	% usage: str x y crdc - cresc, decresc, ..
+%%postscript	/Times-Italic 14 selectfont
+%%postscript	M -6 4 RM show}!
+%%deco rit 6 crdc 20 2 24 ritard.
+%%deco acc 6 crdc 20 2 24 accel.
+
+X: 1
+T: Jesus Wants All Of His Children
+C: Words: Mrs. James W. Wood; 
+C: Music & Setting: 'Blessed Are They' Mrs. James W. Wood, published in "Service in Song", Standard Pub. Co., 1909.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: "Children's Hymnal and Service Book", 1929 Hymn 116.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves S1 | S2 
+V: S1 clef=treble 
+V: S2 clef=bass 
+K: D % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%
+% 1
+[V: S1]  [DF] [DF] [CF] [CE] | D [DF] .(,.([DB] [DA])) & D x3 | [Fd] [Fd] [FA] [DF] | [C3E3] 
+w: 1.~Je- sus wants all of His child- ren to be good and true; 
+w: 2.~Je- sus was so meek and low- ly, As a lit- tle child. 
+w: 3.~Je- sus wants us to be lov- ing, help- ing when we may. 
+w: 4.~"Bless- ed are the pure in heart,"_ thus the Sav- ior taught. 
+w: 5.~When we find our friends are an- gry, we will to them say, 
+[V: S2]  A, A, [G,A,] [G,A,] & A, A, x2 | [F,A,] [F,A,] .(,.(G, [F,A,])) & x2 G, x | [A,D] [A,D] A, A, & x2 A, A, | [G,3A,3]
+% 5
+[V: S1]  z | [CE] [DF] [CG] [DA] | [DB] [Ec] [Fd] [DF] | [B,E] [B,G] [DF] [CE] | [A,3D3] z |]
+w: He will help if we but ask Him, help us glad- ly too. 
+w: We will try to be like Je- sus, gen- tle, pa- tient, mild.  
+w: We will try to be kind- heart- ed, mer- ci- ful each day. 
+w: Clean in mind, in soul, in bo- dy, pure in ev- ery thought. 
+w: "Je- sus wants you to be lov- ing, each and ev- ery day." 
+[V: S2]  z | [G,A,] [F,A,] [E,A,] [F,A,] | G, E, [F,D] B, & G, E, x B, | G, E, A, [A,,G,] & G, E, A, x | [D,3F,3] z |]
+% 10

@@ -1,0 +1,120 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%
+
+X: 1
+T: Canon in D
+C: Music: Johann Pachelbel, circa 1680.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: music book from a Casio keyboard, alt.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves S1 | (S2V1 S2V2) 
+V: S1 clef=treble 
+V: S2V1 clef=bass 
+V: S2V2
+K: D % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1]  z/ F/A/d/ z/ E/A/c/ | z/ D/F/B/ z/ C/F/A/ | z/ B,/D/G/ z/ A,/D/F/ | z/ B,/D/G/ z/ C/E/A/ | f2 e2 | d2 c2 | B2 A2 | 
+[V: S2V1]  x4 | x4 | x4 | x4 | [V: S2V1 clef=tenor]  z/ F/A/d/ z/ C/E/A/ | z/ D/F/B/ z/ A,/C/F/ | z/ B,/D/G/ z/ F,/A,/D/ | 
+[V: S2V2]  D2 A,2 | B,2 F,2 | G,2 D,2 | G,2 A,2 | D2 A,2 | B,2 F,2 | G,2 D,2 | 
+% 9
+[V: S1] B2 c2 |: [d2f2] [c2e2] | [B2d2] [A2c2] | [G2B2] [F2A2] | [G2B2] [A2c2] |
+[V: S2V1]  z/ B,/D/G/ z/ C/E/A/ |:z/ F,/A,/D/ z/ C/E/A/ | z/ D/F/D/ z/ A,/C/F/ | z/ B,/D/B,/ z/ F,/A,/D/ | z/ B,/D/B,/ z/ C/E/A,/ |
+[V: S2V2] G,2 A,2 |: D,2 A,2 | B,2 F,2 | G,2 D,2 | G,2 A,2 |
+% 13
+[V: S1]  [F/d/]c/d/D/ C/A/E/F/ | D/d/c/B/ c/f/a/b/ | [B/g/]f/e/g/ [A/f/]e/d/c/ | [G/B/]A/G/F/ E/G/F/E/ |
+[V: S2V1 clef=bass]  x4 | x4 | x4 | x4 |
+[V: S2V2]  D,2 [A,,2E,2] | [B,,2F,2] [F,,2F,2] | [G,,2G,2] D,2 | [G,,2G,2] [A,,2A,2] |
+% 17
+[V: S1]  D/E/F/G/ [C/A/]E/A/G/ | [D/F/]B/A/G/ [C/A/]G/F/E/ | D/B,/B/c/ [F/d/]c/B/A/ | [D/G/]F/E/B/ [D/A/]B/ [CA] |
+[V: S2V1]  x4 | x4 | x4 | x4 |
+[V: S2V2]  [D,2A,2] [A,,2A,2] | [B,,2B,2] [F,,2F,2] | [G,,2G,2] [D,,2D,2] | [G,,2G,2] [A,,2A,2] |
+% 21
+[V: S1]  a/f//g// a/f//g// a//A//B//c// d//e//f//g// | f/d//e// f/F//G// A//B//A//G// A//F//G//A// | G/B//A// G/F//E// F//E//D//E// F//G//A//B// |["Repeat as long as desired" G/B//A// B/c//d// A//B//c//d// e//f//g//a// :|
+[V: S2V1]  x4 | x4 | x4 | x4 :|
+[V: S2V2]  [D2F2] [A,2E2] | [B,2D2] [F,2C2] | [G,2B,2] [D,2A,2] | [G,2B,2] [A,2C2] :|
+% 25
+[V: S1]  [d2f2] [c2e2] | [B2d2] [A2c2] | [G2B2] [F2A2] | B e c [ce] & G2 A2 | [A2d2f2] z2 |]
+[V: S2V1]  z/ F,/A,/D/ z/ C,/E,/A,/ | z/ D,/F,/B,/ z/ A,,/C,/F,/ | z/ B,,/D,/G,/ z/ F,/A,/D/ | z/ B,,/D,/G,/ z/ C,/E,/A,/ | x4 |]
+[V: S2V2]  D,2 A,,2 | B,,2 F,,2 | G,,2 D,2 | G,,2 A,,2 | [D,,2D,2] z2 |]
+% 30
+%%sep
+%%multicol start
+%%rightmargin 7.0cm
+%%begintext 
+Reference for Tenor Clef: 
+Middle C on treble, tenor, and bass clefs
+%%endtext 
+%%multicol new
+%%leftmargin 11.5cm
+K: none
+%%staves S1
+[V: S1] [K: C treble] C4 |\
+%%staffbreak 2cm
+[V: S1 clef=tenor] C4 |\
+%%staffbreak 2cm
+[V: S1 clef=bass] C4 |
+%%multicol end

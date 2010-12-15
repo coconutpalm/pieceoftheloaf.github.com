@@ -1,0 +1,113 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Pr 10:22, 2Cor 6:10, Heb 10:34		"
+%
+
+X: 1
+T: All Depends On Our Possessing
+C: Words: unknown circa 1673; Translated by Catherine Winkworth, 1858. 
+C: Music: 'Alles ist an Gottes Segen' Johann B. Koenig, 1738.  Setting: PD from Lutheran Worship, 1982.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: 'Lutheran Worship' Hymnal, 1982 Hymn 415.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | S2 
+V: S1V1 clef=treble 
+V: S1V2 
+V: S2 clef=bass 
+K: F % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] [CF] [DF] [Cc] [Fc] | [GB] [Gc] [FA] [DF] | [FA] [FA] G [EG] | [EF] [DG] [CE] C & x3 C |
+w: 1.~All de- pends on our pos- sess- ing God's a- bun- dant grace and bless- ing, 
+w: 2.~He who hi- ther- to hath fed me And to ma- ny joys hath led me, 
+w: 3.~Ma- ny spend their lives in fret- ting Ov- er tri- fles and in get- ting 
+w: 4.~When with sor- row I am strick- en, Hope my heart a- new will quick- en, 
+w: 5.~Well He knows what best to grant me; All the long- ing hopes that haunt me, 
+[V: S1V2]  x4 | x4 | x2 G x | x4 |
+[V: S2]  [F,A,] [D,A,] [E,G,] [F,A,] | [F,D] [E,C] [F,C] [B,,B,] | [F,C] [A,,C] [B,,D] [C,C] | [D,A,] [B,,B,] [C,G,] [C,E,] |
+% 5
+[V: S1V1]  [DG] [CG] F [CE] | [CD] [=B,D] C2 | [EG] [DG] [Cc] [DA] | [DB] [Cc] [CA] [DF] |
+w: Though all earth- ly wealth de- part. He who trusts with faith un- sha- ken 
+w: Is and ev- er shall be mine. He who did so gent- ly school me, 
+w: Things that have no sol- id ground. I shall strive to win a treas- ure 
+w: All my long- ing shall be stilled. To His lo- ving- kind- ness ten- der 
+w: Joy and sor- row, have their day. I shall doubt His wis- dom nev- er, 
+[V: S1V2]  x2 C/=B,/ x | x2 C2 | x4 | x4 |
+[V: S2]  [=B,,G,] [C,E,] [D,F,] [E,G,] | [F,A,] G, [C,2E,2] & x G, x2 | [C,C] [B,,G,] [A,,A,] [D,^F,] | [G,,G,] [E,G,] [F,A,] [B,,B,] |
+% 9
+[V: S1V1]  [FA] [FA] G [EG] | [EF] [DG] [CE] C | [CF] [DF] [EB] [FA] | [FG] [EG] [C2F2] |]
+w: In His God is not for- sa- ken And e'er keeps a daunt- less heart. 
+w: He who still doth guide and rule me, Will re- main my Help di- vine. 
+w: That will bring me last- ing pleas- ure And that now is sel- dom found. 
+w: Soul and bo- dy I sur- ren- der; For in Him a- lone I build. 
+w: As God wills, so be it ev- er, I to Him com- mit my way. 
+[V: S1V2]  x2 G x | x3 C | x4 | x2 x2 |]
+[V: S2]  [F,C] [A,,C] [B,,D] [C,C] | [D,A,] [B,,B,] [C,G,] [C,E,] | [A,,F,] [B,,B,] [G,,B,] [A,,C] | [B,,D] [C,C] [F,,2A,2] |]
+% 13
+W: 6.If on earth my days He lengthen,
+W: He my weary soul will strengthen;
+W: All my trust in Him I place.
+W: Earthly wealth is not abiding,
+W: Like a stream away is gliding;
+W: Safe I anchor in His grace.

@@ -1,0 +1,102 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% This file is a part of the Open Hymnal Project to create a free, 
+% public domain, downloadable database of Christian hymns, spiritual 
+% songs, and prelude/postlude music.  This music is to be distributed 
+% as complete scores (words and music), using all accompaniment parts, 
+% in formats that are easily accessible on most computer OS's and which
+% can be freely modified by anyone.  The current format of choice is the 
+% "ABC Plus" format, favored by folk music distributors on the internet.
+% All scores will also be converted into pdf, MIDI, and mp3 formats.
+% Some advanced features of ABC Plus are used, and for accurate 
+% translation to a printed score, please consider using "abcm2ps" 
+% version 4.10 or later.  I am doing my best to create a final product
+% that is "Hymnal-quality", and could feasibly be used as the basis for
+% a printed church hymnal.
+%
+% The maintainer of the Open Hymnal Project is Brian J. Dumont
+% (bdumont at ameritech dot net).  I have gone through serious efforts 
+% to make sure that no copyrighted material makes it into this database.
+% If I am in error, please inform me as soon as possible.
+%
+% This entire effort has used only free software, and I am indebted to 
+% the efforts of many other individuals, including the authors of
+% the various ABC and ABC Plus software, the authors of "noteedit"
+% where the initial layouts are done, and the maintainers of the 
+% "CyberHymnal" on the web from where most of the lyrics come.
+% Undoubtedly, I am also indebted to all of the great Christians who 
+% wrote these hymns.
+%
+% This database comes with no guarantees whatsoever.
+%
+% I would love to get email from anyone who uses the Open Hymnal, and
+% I will take requests for hymns to add.  My decision of whether to 
+% add a hymn will be based on these criteria (in the following order):
+% 1) It must be in the public domain
+% 2) It must be a Christian piece
+% 3) Whether I have access to a printed copy of the music (surprisingly,
+%    a MIDI file is usually a terrible source)
+% 4) Whether I like the hymn :)
+%
+% If you would like to contribute to the Open Hymnal Project, please 
+% send an email to me, I would love the help!  PLEASE EMAIL ME IF YOU 
+% FIND ANY MISTAKES, no matter how small.  I want to ensure that every 
+% slur, stem, hyphenation, and punctuation mark is correct; and I'm sure 
+% that there must be mistakes right now.
+%
+% Open Hymnal Project, 2005 Edition
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%footer "Eph 3:17-18, Jn 15:12-13		"
+%
+
+X: 1
+T: Jesus Loves Me
+C: Words: Anna B. Warner, 1860. except verses 2,3 David Rutherford McGuire. 
+C: Music: untitled by William B. Bradbury, 1862.  Setting: The Evangelical Hymnal, 1921.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: 'The Evangelical Hymnal', 1921 Hymn 432.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves S1 | S2 
+V: S1 clef=treble 
+V: S2 clef=bass 
+K: Eb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%
+% 1
+[V: S1] [Q:1/4=120]  [GB] [EG] [EG] [DF] | [EG] [GB] [G2B2] | [Ac] [Ac] [ce] [Ac] | [Ac] [GB] [G2B2] |
+w: 1.~Je- sus loves me! This I know, For the Bi- ble tells me so. 
+w: 2.~Je- sus loves me! This I know, As He loved so long a- go, 
+w: 3.~Je- sus loves me still to- day, Walk- ing with me on my way, 
+w: 4.~Je- sus loves me! He who died Hea- ven's gate to op- en wide; 
+w: 5.~Je- sus loves me! He will stay Close be- side me all the way; 
+[V: S2]   [E,B,] [E,B,] [E,B,] [B,,B,] | [E,B,] [E,B,] [E,2B,2] | [A,,A,] [A,,A,] [A,,A,] [C,A,] | [E,A,] [E,B,] [E,2B,2] |
+% 5
+[V: S1]  [GB] [EG] [EG] [DF] | [EG] [GB] [G2B2] | [Ac] [Ac] [GB] E | [EG] [DF] E2 |
+w: Lit- tle ones to Him be- long; They are weak, but He is strong. 
+w: Tak- ing child- ren on His knee, Say- ing, "Let them come to Me."
+w: Want- ing as a friend to give Light and love to all who live. 
+w: He will wash a- way my sin, Let His lit- tle child come in. 
+w: Thou hast bled and died for me, I will hence- forth live for Thee. 
+[V: S2]  [E,B,] [E,B,] [E,B,] [B,,B,] | [E,B,] [E,B,] [E,2B,2] | [A,,A,] [C,A,] [E,G,] [E,G,] | B, [B,,A,] [E,2G,2] |
+% 9
+[V: S1]  [G2B2] [EG] [GB] | [Ac] [c3e3] | [G2B2] [EG] E | [EG] [D3F3] |
+w: Yes, Je- sus loves me! Yes, Je- sus loves me! 
+[V: S2]  [E,2G,2] [E,B,] [E,E] | [A,,E] [A,,3E3] | [E,2E2] [E,B,] [G,B,] | [B,,B,] [B,,3B,3] |
+% 13
+[V: S1]  [E2B2] [EG] [GB] | [Ac] [c2e2] [Ac] | [GB] E [E3/2G3/2] [D/F/] | E4 |]
+w: Yes, Je- sus loves me! The Bi- ble tells me so. 
+[V: S2]  [G,2B,2] [E,B,] [E,E] | [A,,E] [A,,2E2] [C,E] | [E,E] [G,B,] B,3/2 [B,,/A,/] | [E,4G,4] |]
+% 18
