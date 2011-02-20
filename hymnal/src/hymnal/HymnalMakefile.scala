@@ -21,8 +21,8 @@ object HymnalMakefile extends ScalaMakefile {
   // Source/Build/output folder names
   val SOURCEDIR = "hymnal-src"
   val SONG_DIR = "%s/songs" << SOURCEDIR
-  val HYMNAL_CONTENTS = "%s/contents-full.txt" << SOURCEDIR
-  val HYMNAL_CONTENTS_test = "%s/contents.txt" << SOURCEDIR
+  //val HYMNAL_CONTENTS = "%s/contents-full.txt" << SOURCEDIR
+  val HYMNAL_CONTENTS = "%s/contents.txt" << SOURCEDIR
   val BUILD_DIR = "build"
   val OUTPUT_DIR = "output"
   

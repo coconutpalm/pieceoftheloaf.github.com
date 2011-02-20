@@ -88,28 +88,44 @@
 		<xi:include href="chapters/chapter_harmony_of_last_supper.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 		<xi:include href="chapters/chapter_harmony_with_corinthians.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	</part>
-<!-- 
- 	<part label="II" id="part-the_body">
-		<title>The Measure of Christ's Stature</title>
+
+ 	<part label="II" id="Luke-Acts">
+		<title>Luke/Acts</title>
 		
 		<partintro>
-			<para>In <xref linkend="preface"/>, we motivated this series by noticing how the practice of
-			assembling together in the early church was done according to a pattern that Jesus initiated
-			and that Paul further detailed.  But before we can understand why our Lord would have instituted
-			this pattern, we first need to understand, <quote>What is the Body of Christ?</quote>
+			<para>Luke/Acts chronicles the start of the Church. Both are written
+			to <quote>Theophilus</quote>, who might have been a real man but
+			whose name means <quote>lover of God</quote>.  The purpose in
+			Luke&apos;s Gospel is <quote>so that you may know for certain the
+			things you were taught.</quote></para>
+
+			<para>Luke&apos;s Gospel is the story of Jesus&apos;s life in the
+			flesh, from the sign of John the Baptist (whose job was to prepare
+			the way for Jesus to come the first time), until Jesus himself was
+			raised from the dead and taken into heaven.</para>
+
+			<para>The thrust of Acts is the story of Jesus&apos; life through the
+			<emphasis>church,</emphasis> (whose job is to prepare the way for
+			Jesus to return) until the Body of Christ brought the Gospel all 
+			the way to Rome, and even to the very palace of the emperor.</para>
+			
+			<para>This series studies through Luke/Acts, asking the question,
+			What is the Holy Spirit trying to tell us about God's plan for
+			the Church to multiply?
 			
 			<itemizedlist>
 				<listitem>
-					<para><xref linkend="chapter_discerning_the_body" /> &mdash; describes the importance
-					of discerning the Lord's Body when we come together.</para>
-				</listitem>
-				<listitem>
-					<para><xref linkend="chapter_motivations" /> &mdash; explains motivations</para>
+					<para><xref linkend="chapter-jbaptist_birth" /> &mdash;
+					After Luke's prolog, he starts his Gospel with a lesson on
+					prayer.  In this story, Zechariah illustrates how God
+					takes the small, imperfect things that we offer and makes them
+					into much more--far more than we could imagine.  And he
+					transforms our lives and the lives of others around us in the 
+					process.</para>
 				</listitem>
 			</itemizedlist>
 			</para>
 		</partintro>
-		<xi:include href="chapters/chapter_discerning_the_body.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+		<xi:include href="chapters/chapter_jbaptist_birth_announce.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	</part>
- -->
 </book>
